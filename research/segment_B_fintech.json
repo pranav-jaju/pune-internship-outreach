@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Bajaj Finserv Asset Management (Bajaj Finserv Mutual Fund)",
+    "website": "https://www.bajajamc.com",
+    "pune_evidence": "Head office / registered address: Bajaj Finserv House, S. No. 208/1B, Lohegaon, Viman Nagar, Pune 411014 (CIN U65990PN2021PLC205292)",
+    "pune_evidence_url": "https://www.bajajamc.com/contact-us",
+    "what_they_do": "Mutual fund AMC (launched 2023) whose stated InQuBe investment philosophy combines informational, quantitative and behavioural edges; runs equity, hybrid and debt schemes.",
+    "personalization_hook": "Its InQuBe philosophy explicitly names a quantitative edge alongside informational and behavioural ones, and in Nov 2025 it filed a draft offer document with SEBI for an Active Momentum Fund (stocks with strong price-trend characteristics, NIFTY 500 TRI benchmark).",
+    "hook_sources": [
+      "https://bajajamc.com/about-us",
+      "https://oga-prod.angelone.in/news/mutual-funds/bajaj-finserv-mutual-fund-files-draft-for-active-momentum-fund"
+    ],
+    "contacts": [
+      {
+        "email": "service@bajajamc.com",
+        "kind": "info",
+        "person_name": "Priya Singh (Investor Relations Officer)",
+        "source_url": "https://www.bajajamc.com/contact-us",
+        "confidence": "high",
+        "note": "investor-service mailbox, not careers; low value for internship ask"
+      }
+    ],
+    "other_contact": "Careers likely via Bajaj Finserv group careers portal; no AMC careers email published on contact page.",
+    "founders_or_key_people": [
+      "Ganesh Mohan (CEO)",
+      "Nimesh Chandan (CIO) - interviews on behavioural/InQuBe approach: https://www.business-standard.com/amp/markets/interviews/behavioural-aspects-will-be-key-differentiator-bajaj-finserv-amc-cio-123073100544_1.html"
+    ],
+    "notes": "Large, not boutique, but Pune HQ and a quant/momentum product angle. Momentum fund was a draft filing as of Nov 2025; check whether it has launched before citing it as live. CEO name from general knowledge, not verified on page this session."
+  },
+  {
+    "name": "Definedge (Definedge Securities Broking / Definedge Solutions)",
+    "website": "https://www.definedgesecurities.com",
+    "pune_evidence": "Registered office: 2nd floor, Ambashish, Lane 9, Pakharbag, Bavdhan, Pune 411021; Pune (020) phone lines; Inc42 lists it among top funded Pune fintechs (founded 2011)",
+    "pune_evidence_url": "https://www.definedgesecurities.com/",
+    "what_they_do": "Pune broker + trading-analytics stack: OPSTRA options analytics, Algostra no-code algo trading, Momentify systematic-strategy backtesting, RZone scanner/backtester; 14+ platforms.",
+    "personalization_hook": "Pune-registered broker that started in investor education and analytics; raised Rs 22 crore pre-Series A in Sept 2026 partly to build AI/automation products; runs Opstra (options analytics), Algostra (no-code algo platform) and Momentify, a build-and-backtest platform for systematic investors that passed Rs 1,000 crore AUM in ~15 months.",
+    "hook_sources": [
+      "https://indianstartupnews.com/funding/pune-based-fintech-and-brokerage-startup-definedge-raises-rs-22-crore-in-funding-12563353",
+      "https://www.definedgesecurities.com/"
+    ],
+    "contacts": [
+      {
+        "email": "care@definedge.com",
+        "kind": "info",
+        "person_name": "",
+        "source_url": "https://www.definedgesecurities.com/",
+        "confidence": "high",
+        "note": "customer care (decoded from Cloudflare-protected link on homepage)"
+      },
+      {
+        "email": "compliance@definedge.com",
+        "kind": "info",
+        "person_name": "",
+        "source_url": "https://www.definedgesecurities.com/",
+        "confidence": "high",
+        "note": "compliance; do not use for outreach"
+      }
+    ],
+    "other_contact": "No careers email found; try LinkedIn company page / founder.",
+    "founders_or_key_people": [
+      "Prashant Shah (Co-founder & CEO)",
+      "Rajesh Badiye (Co-founder & CIO)"
+    ],
+    "notes": "Good fit: options analytics + backtesting. Inc42 Pune list: https://inc42.com/lists/top-20-funded-fintech-startups-in-pune-2026/ . Corporate office also in Andheri, Mumbai."
+  },
+  {
+    "name": "AlgoAnalytics",
+    "website": "https://www.algoanalytics.com",
+    "pune_evidence": "CB Insights profile: based in Pune, founded 2016; founder listed in Pune on eChai; Instahyre job post 'at AlgoAnalytics, Pune'",
+    "pune_evidence_url": "https://www.cbinsights.com/compare/algoanalytics-vs-curl-tech",
+    "what_they_do": "Pune AI/ML and predictive-analytics consultancy (structured and unstructured data); finance is one of its listed focus sectors.",
+    "personalization_hook": "Founder Aniruddha Pant's bio stresses 18+ years building groups for 'high-end quantitative work' and 25+ years applying advanced mathematics to enterprise problems.",
+    "hook_sources": [
+      "https://echai.ventures/founders/aniruddha-pant"
+    ],
+    "contacts": [],
+    "other_contact": "Website is JS-only; jobs posted on Instahyre (https://www.instahyre.com/job-41360-business-development-executive-at-algoanalytics-pune/) and Indeed. No email verified.",
+    "founders_or_key_people": [
+      "Aniruddha Pant (Founder & CEO)"
+    ],
+    "notes": "ML-first rather than trading; finance is one vertical. Medium fit. No published email found."
+  },
+  {
+    "name": "FinIQ (FinIQ Consulting India Pvt Ltd)",
+    "website": "https://www.finiq.com",
+    "pune_evidence": "Indian entity's registered (LEI) address: Office No 617, Sidharth Tower No 1, Sangam Press Road, Kothrud, Pune 411038; IndiaMART listing located in Pune. HQ Singapore.",
+    "pune_evidence_url": "https://globallei.in/lei/254900M1KG7SVHVWKY36/finiq-consulting-india-private-limited",
+    "what_they_do": "Platform for structured products and OTC/FX derivatives (pricing, RFQ, orchestration, documentation, lifecycle management) used by investment banks and private banks.",
+    "personalization_hook": "October 2025 was its biggest month on record: over US$29bn of structured and OTC trades, with peaks of 900,000 RFQs per day, and 11 investment banks using its orchestrator.",
+    "hook_sources": [
+      "https://www.structuredretailproducts.com/insights/82013/finiq-builds-momentum-into-2026-with-strong-tailwinds"
+    ],
+    "contacts": [],
+    "other_contact": "finiqconsulting.com blocks automated fetch; no email found. Approach via LinkedIn / site contact form.",
+    "founders_or_key_people": [
+      "Nitish Bandle (Director, quoted in SRP 2025)"
+    ],
+    "notes": "Not small (~900 staff, ~88% South Asia per Revelio) but derivatives-pricing tech with Pune engineering presence; relevant for structured-product pricing/quant dev."
+  },
+  {
+    "name": "Lentra AI",
+    "website": "https://lentra.ai",
+    "pune_evidence": "HQ: 202 Amar Tech Park, Balewadi-Hinjawadi Road, Balewadi, Pune 411045; described as 'Pune-headquartered digital lending cloud platform'",
+    "pune_evidence_url": "https://lentra.ai/",
+    "what_they_do": "AI/ML lending cloud for banks and NBFCs: credit-risk decisioning engine (BREx), instant decisioning, MLOps for lending models.",
+    "personalization_hook": "Its credit-risk decisioning platform promises end-to-end loan decisions in about 10 seconds, and in 2022 it acquired TheDataTeam (Cadenz creditworthiness platform), whose founder became Lentra's chief data officer.",
+    "hook_sources": [
+      "https://lentra.ai/",
+      "https://news.ventureintelligence.com/ma/digital-lender-lentra%2Cai-acquires-customer-creditworthiness-verifier-thedatateam"
+    ],
+    "contacts": [
+      {
+        "email": "careers@lentra.ai",
+        "kind": "careers",
+        "person_name": "",
+        "source_url": "https://lentra.ai/careers",
+        "confidence": "high"
+      }
+    ],
+    "other_contact": "https://lentra.ai/careers",
+    "founders_or_key_people": [
+      "Rangarajan Vasudevan (co-founder & Chief Data Officer, ex-TheDataTeam)"
+    ],
+    "notes": "Credit-risk / ML modelling rather than markets; ~$100M raised (Bessemer, Citi Ventures, MUFG). Good for ML/statistics angle, weaker for trading."
+  },
+  {
+    "name": "FlexTrade Systems (Pune office)",
+    "website": "https://flextrade.com",
+    "pune_evidence": "Careers posting: Technical Analyst, Client Services, on-site in Pune; other Pune software roles on eFinancialCareers",
+    "pune_evidence_url": "https://careers.flextrade.com/o/technical-analyst-2031",
+    "what_they_do": "Execution and order management systems (FlexTRADER EMS, OMS) for equities, fixed income, FX, futures and options trading desks.",
+    "personalization_hook": "Builds FlexTRADER, which it describes as the world's first broker-neutral execution management system, covering equities through options.",
+    "hook_sources": [
+      "https://careers.flextrade.com/o/technical-analyst-2031"
+    ],
+    "contacts": [],
+    "other_contact": "Apply via https://careers.flextrade.com (no email published)",
+    "founders_or_key_people": [],
+    "notes": "US-headquartered (NY) trading-tech vendor; not small but a genuine trading-tech employer in Pune. Founder names not verified this session."
+  },
+  {
+    "name": "MoneyWorks4Me (The Alchemists Ark Pvt Ltd)",
+    "website": "https://www.moneyworks4me.com",
+    "pune_evidence": "Registered address: B-101, Signet Corner, Balewadi Phata, Baner, Pune 411045",
+    "pune_evidence_url": "https://www.moneyworks4me.com/contact-us",
+    "what_they_do": "SEBI-registered investment adviser (since 2017; research since 2008) offering stock/MF research, valuation tools, screeners and model-portfolio advisory for retail investors.",
+    "personalization_hook": "Pune-built retail research platform running since 2008, with in-house stock and fund screeners and valuation tools behind its Omega and Sapphire portfolio-advisory plans.",
+    "hook_sources": [
+      "https://www.moneyworks4me.com/contact-us"
+    ],
+    "contacts": [
+      {
+        "email": "besafe@moneyworks4me.com",
+        "kind": "info",
+        "person_name": "",
+        "source_url": "https://www.moneyworks4me.com/contact-us",
+        "confidence": "high"
+      },
+      {
+        "email": "atharva.bhide@moneyworks4me.com",
+        "kind": "person",
+        "person_name": "Atharva Bhide (Principal Officer)",
+        "source_url": "https://www.moneyworks4me.com/contact-us",
+        "confidence": "high",
+        "note": "regulatory principal officer; published, but use with care"
+      }
+    ],
+    "other_contact": "",
+    "founders_or_key_people": [
+      "Atharva Bhide (Principal Officer)",
+      "Raymond Moses (author credited on site; role not stated)"
+    ],
+    "notes": "Fundamental/valuation-driven rather than quant trading; fit is data/stats for investing. Small Pune firm."
+  },
+  {
+    "name": "Purnartha Investment Advisers",
+    "website": "https://www.purnartha.com",
+    "pune_evidence": "Registered office: 32/33 Rachna Bungalow, Dr. Ketkar Road, Erandwane, Pune 411004; Craft lists HQ Pune",
+    "pune_evidence_url": "https://www.purnartha.com/contact-us",
+    "what_they_do": "Pune-headquartered investment adviser / PMS / AIF manager (founded 2011) focused on Indian equities.",
+    "personalization_hook": "Its Emerging India strategy is described as using data-driven insights within a systematic portfolio process.",
+    "hook_sources": [
+      "https://www.purnartha.com/contact-us"
+    ],
+    "contacts": [
+      {
+        "email": "servicedesk@purnartha.com",
+        "kind": "info",
+        "person_name": "",
+        "source_url": "https://www.purnartha.com/career",
+        "confidence": "high",
+        "note": "careers page points to this general address and an online form"
+      }
+    ],
+    "other_contact": "https://www.purnartha.com/career (form; 'no openings' at time of check)",
+    "founders_or_key_people": [
+      "Rahul Rathi (Chairman)",
+      "Adesh Gokhale (Executive Director)"
+    ],
+    "notes": "Mostly fundamental research; weak quant fit. Include only as a low-priority Pune wealth/PMS contact."
+  },
+  {
+    "name": "Orange Quant Research LLP",
+    "website": "https://orange-quant.com",
+    "pune_evidence": "Address on site: A-28, Suparswanath D Society, S.No. 692/93, Gultekadi, Market Yard, Pune 411037",
+    "pune_evidence_url": "https://orange-quant.com/",
+    "what_they_do": "Boutique algorithmic trading firm (founded 2014) developing medium- to high-frequency systematic strategies for Indian markets; teams for quant research, low-latency infra and live-trading surveillance.",
+    "personalization_hook": "A Pune boutique running systematic medium- to high-frequency strategies on Indian markets since 2014, with separate quant, infra (latency) and surveillance tracks.",
+    "hook_sources": [
+      "https://orange-quant.com/"
+    ],
+    "contacts": [
+      {
+        "email": "piyush.daga@orange-quant.com",
+        "kind": "person",
+        "person_name": "Piyush Daga",
+        "source_url": "https://orange-quant.com/",
+        "confidence": "high",
+        "note": "listed under Contact Us"
+      },
+      {
+        "email": "harsh.sanghvi@orange-quant.com",
+        "kind": "person",
+        "person_name": "Harsh Sanghvi",
+        "source_url": "https://orange-quant.com/",
+        "confidence": "high",
+        "note": "listed under Contact Us"
+      }
+    ],
+    "other_contact": "",
+    "founders_or_key_people": [
+      "Piyush Daga",
+      "Harsh Sanghvi (roles not stated on site)"
+    ],
+    "notes": "Strongest pure-quant Pune find. It is a prop/algo trading boutique, so it may overlap with the HFT/prop segment; dedupe against that file."
+  },
+  {
+    "name": "Pune E-Stock Broking Ltd (PESB) / PESB Asset Management LLP",
+    "website": "https://pesb.co.in",
+    "pune_evidence": "PESB Asset Management LLP registered office: 1198 Subhash Nagar, Shukrawar Peth, Lane 3, Opp. Hirabaug Business Complex, Pune 411002; Cutshort job posts (Algo Developer, Relationship Manager) located in Pune",
+    "pune_evidence_url": "https://pmsbazaar.com/AMC/PESB-Asset-Management-LLP",
+    "what_they_do": "Pune broking house (founded 2007, SME-listed March 2024) offering equity/F&O/currency/commodity trading via CTCL, web and mobile, with a sister PMS/AIF arm; has hired Python 'Algo Developers' to build algorithmic trading strategies.",
+    "personalization_hook": "A Pune-born broker that listed on the SME exchange in March 2024 and is hiring Python developers in Pune to build algorithmic trading strategies.",
+    "hook_sources": [
+      "https://cutshort.io/company/pune-e-stock-broking-limited-69-1YYE5zaL",
+      "https://groww.in/ipo/pune-e-ipo"
+    ],
+    "contacts": [],
+    "other_contact": "Cutshort company page (recruiter Archana Gorhe): https://cutshort.io/company/pune-e-stock-broking-limited-69-1YYE5zaL ; pesb.co.in blocks automated fetch, so check its contact page manually",
+    "founders_or_key_people": [
+      "Vrajesh Krishnakumar Shah (promoter; Chairman & MD of PESB Asset Management)",
+      "Devendra Ramchandra Ghodnadikar (promoter)"
+    ],
+    "notes": "Small, local, algo-curious. Prop trading only ~0.1% of turnover per IPO filing. No email verified."
+  },
+  {
+    "name": "AllianceBernstein (Pune centre)",
+    "website": "https://www.alliancebernstein.com",
+    "pune_evidence": "Built In posting: AO/Quantitative Developer, in-office in Pune, joining a growing team in Pune and Nashville; other Pune roles (Global Analytics & Risk Operations Analyst, Senior Software Developer)",
+    "pune_evidence_url": "https://builtin.com/job/aoquantitative-developer/4494668",
+    "what_they_do": "Global asset manager; its Pune centre hosts investment-tech, risk analytics and a quant developer seat for the buy-side Index & Derivative Solutions (options) platform.",
+    "personalization_hook": "Its Index and Derivative Solutions unit has been building an options investment platform with Pune quant developers: simulation, portfolio construction, factor research and risk management for option strategies in Python/SQL.",
+    "hook_sources": [
+      "https://builtin.com/job/aoquantitative-developer/4494668",
+      "https://joinsaarthi.com/jobs/alliancebernstein/global-analytics-risk-operations-analyst-pune/7f949219-6db3-4799-adbc-91770c9f427d"
+    ],
+    "contacts": [],
+    "other_contact": "AB careers portal (https://careers.alliancebernstein.com); no Pune email published",
+    "founders_or_key_people": [],
+    "notes": "Captive centre of a large US asset manager (not a bank). Not boutique; cold email unlikely to land without a named person. The quant-dev posting was removed 28 Jul 2025."
+  },
+  {
+    "name": "Capstone Securities Analysis Pvt Ltd",
+    "website": "http://www.capstonesa.com",
+    "pune_evidence": "Indeed company page: HQ Pune; job 'Research Analyst/ Quant Trader' in Yerwada, Pune",
+    "pune_evidence_url": "https://in.indeed.com/cmp/Capstone-Securities-Analysis",
+    "what_they_do": "Pune prop-trading desk trading US securities with firm capital; trains new traders on its platforms (201-500 staff per Indeed).",
+    "personalization_hook": "Runs a Pune-based desk trading US equities with the firm's own capital and recently advertised a 'Research Analyst / Quant Trader' role in Yerwada.",
+    "hook_sources": [
+      "http://www.capstonesa.com",
+      "https://in.indeed.com/Algorithmic-Trading-jobs-in-India"
+    ],
+    "contacts": [],
+    "other_contact": "Website has no email; apply via Indeed listing",
+    "founders_or_key_people": [],
+    "notes": "US-markets prop desk; discretionary-trader culture more than research. Overlaps the prop segment; low priority."
+  },
+  {
+    "name": "Gemscap Global Analyst Pvt Ltd",
+    "website": "https://gemscapglobal.com",
+    "pune_evidence": "Head office: 14th Floor, Wing 2, Block 1, International Tech Park Pune, Kharadi, Pune 412207 (site); Cutshort job at EON Free Zone, Kharadi",
+    "pune_evidence_url": "https://gemscapglobal.com/",
+    "what_they_do": "Pune-based US-markets trading firm (founded 2016) providing tools, training and capital to traders; hires US equity and options analysts working US hours.",
+    "personalization_hook": "Hires Pune analysts to build US options strategies using Greeks and to write daily/weekly US market reports (June 2026 posting).",
+    "hook_sources": [
+      "https://cutshort.io/job/US-Equity-and-Options-Analyst-Kharadi-Pune-Gemscap-Global-Analyst-PVT-LTD-gjhmSfSx"
+    ],
+    "contacts": [],
+    "other_contact": "No email on site; Cutshort listing",
+    "founders_or_key_people": [],
+    "notes": "Trader-training/prop model; weak research fit, night shift. Low priority; overlaps prop segment."
+  }
+]

@@ -1,0 +1,157 @@
+# -*- coding: utf-8 -*-
+"""Sender for the Pune December-internship outreach. Separate from the summer research outreach
+(cold-mail-outreach): own repo, own queue, own sent log, own approval switch.
+
+Reads data/queue.csv (columns: send, firm, name, email, subject, body, planned_date) and sends
+the rows whose planned_date is on or before --date (IST today by default), once each. Anyone in
+data/sent_log.csv with status "sent" (matched by email, or by firm for first-touch mails) is
+skipped, so re-running never double-sends and no firm gets two cold mails.
+
+It is a dry run unless --send is passed, and a real send also needs PUNE_SENDING_APPROVED=yes.
+
+Usage:
+    python src/send.py                                   # dry run of what is due today
+    python src/send.py --test-to me@example.com --limit 1 --send
+    python src/send.py --send                            # real send (CI only)
+"""
+import argparse
+import csv
+import os
+import random
+import smtplib
+import ssl
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from email.charset import QP, Charset
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.utils import formataddr, formatdate, make_msgid
+from pathlib import Path
+
+IST = timezone(timedelta(hours=5, minutes=30))
+UTF8_QP = Charset("utf-8")
+UTF8_QP.body_encoding = QP
+LOG_FIELDS = ["timestamp_ist", "firm", "name", "email", "subject", "kind", "status", "error"]
+
+
+def env(name):
+    v = os.environ.get(name)
+    if not v:
+        sys.exit(f"Missing environment variable {name}")
+    return v
+
+
+def load_sent(path):
+    emails, firms = set(), set()
+    if Path(path).exists():
+        for r in csv.DictReader(open(path, newline="", encoding="utf-8")):
+            if r.get("status") == "sent":
+                emails.add(r["email"].strip().lower())
+                if r.get("kind", "first") == "first":
+                    firms.add(r["firm"].strip().lower())
+    return emails, firms
+
+
+def build_message(row, sender_name, sender_email, resume):
+    msg, alt = MIMEMultipart("mixed"), MIMEMultipart("alternative")
+    msg["From"] = formataddr((sender_name, sender_email))
+    msg["To"] = row["email"]
+    msg["Subject"] = row["subject"]
+    msg["Reply-To"] = sender_email
+    msg["Date"] = formatdate(localtime=True)
+    msg["Message-ID"] = make_msgid()
+    body = row["body"].rstrip() + "\n"
+    alt.attach(MIMEText(body, "plain", UTF8_QP))
+    import html
+    paras = "".join(f"<p>{html.escape(p).replace(chr(10), '<br>')}</p>" for p in body.split("\n\n") if p.strip())
+    alt.attach(MIMEText(f'<div style="font-family:sans-serif;font-size:14px;line-height:1.5">{paras}</div>',
+                        "html", UTF8_QP))
+    msg.attach(alt)
+    part = MIMEApplication(resume.read_bytes(), _subtype="pdf")
+    part.add_header("Content-Disposition", "attachment", filename=resume.name)
+    msg.attach(part)
+    return msg
+
+
+def log(path, row, status, error=""):
+    new = not Path(path).exists()
+    with open(path, "a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=LOG_FIELDS, extrasaction="ignore")
+        if new:
+            w.writeheader()
+        w.writerow({**row, "timestamp_ist": datetime.now(IST).strftime("%Y-%m-%d %H:%M:%S"),
+                    "kind": row.get("kind") or "first", "status": status, "error": error})
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--queue", default="data/queue.csv")
+    ap.add_argument("--log", default="data/sent_log.csv")
+    ap.add_argument("--date", default=datetime.now(IST).date().isoformat())
+    ap.add_argument("--limit", type=int)
+    ap.add_argument("--delay", type=int, default=90, help="base seconds between sends")
+    ap.add_argument("--jitter", type=int, default=120, help="extra random 0..N seconds per send")
+    ap.add_argument("--test-to", default="")
+    ap.add_argument("--send", action="store_true")
+    a = ap.parse_args()
+
+    sent_emails, sent_firms = load_sent(a.log)
+    queue, seen = [], set()
+    for row in csv.DictReader(open(a.queue, newline="", encoding="utf-8")):
+        if row.get("send", "").strip().lower() != "yes" or not row.get("email") or not row.get("body"):
+            continue
+        email, firm = row["email"].strip().lower(), row["firm"].strip().lower()
+        first = (row.get("kind") or "first") == "first"
+        if email in sent_emails or email in seen or (first and (firm in sent_firms or firm in seen)):
+            continue
+        if row.get("planned_date") and row["planned_date"] > a.date:
+            continue
+        seen |= {email, firm}
+        queue.append(row)
+    queue = queue[: a.limit] if a.limit else queue
+
+    print(f"Due on or before {a.date}: {len(queue)}")
+    if not a.send:
+        for r in queue:
+            print(f"  [dry run] {r['firm']:<34} {r['email']:<36} | {r['subject']}")
+        return
+    if not queue:
+        return
+    if os.environ.get("PUNE_SENDING_APPROVED") != "yes" and not a.test_to:
+        sys.exit("Sending not approved (PUNE_SENDING_APPROVED != yes). Use --test-to for a test send.")
+
+    resume = Path(os.environ.get("RESUME_PATH", "resume/PranavJaju_Resume.pdf"))
+    if not resume.exists():
+        sys.exit(f"Resume missing at {resume}; not sending without it")
+    sender_name, sender_email = env("SENDER_NAME"), env("SENDER_EMAIL")
+    smtp = smtplib.SMTP(env("SMTP_SERVER"), int(os.environ.get("SMTP_PORT", "587")), timeout=30)
+    smtp.ehlo()
+    smtp.starttls(context=ssl.create_default_context())
+    smtp.ehlo()
+    smtp.login(os.environ.get("SMTP_USER") or sender_email, env("SENDER_APP_TOKEN"))
+
+    ok = fail = 0
+    for i, row in enumerate(queue, 1):
+        if a.test_to:
+            row = {**row, "email": a.test_to, "subject": "[TEST] " + row["subject"]}
+        print(f"[{i}/{len(queue)}] {row['firm']} -> {row['email']}")
+        try:
+            smtp.send_message(build_message(row, sender_name, sender_email, resume))
+            ok += 1
+            if not a.test_to:
+                log(a.log, row, "sent")
+        except Exception as e:  # keep going; the log records the failure
+            fail += 1
+            print(f"  failed: {type(e).__name__}: {e}")
+            if not a.test_to:
+                log(a.log, row, "failed", str(e))
+        if i < len(queue):
+            time.sleep(a.delay + random.randint(0, a.jitter))
+    smtp.quit()
+    print(f"Done. sent={ok} failed={fail}")
+
+
+if __name__ == "__main__":
+    main()

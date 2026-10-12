@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Orange Quant Research LLP",
+    "website": "https://orange-quant.com",
+    "pune_evidence": "Official site lists address A-28, Suparswanath D Society, S.No. 692/93, Gultekadi, Market Yard, Pune 411037; AeroLeads lists HQ Pune. https://orange-quant.com ; MCA (ZaubaCorp): Paradigm Quant Research Pvt Ltd, CIN U74999PN2017PTC204969, S No 692/93 PL No C28, Market Yard, Gultekadi, Pune 411009, directors Harsh Sanghvi and Piyush Daga. https://www.zaubacorp.com/company//U74999PN2017PTC204969",
+    "what_they_do": "Boutique algorithmic trading firm (founded 2014) running medium- to high-frequency systematic strategies on Indian markets.",
+    "personalization_hook": "Small team (~8 people) building medium/high-frequency strategies for Indian markets since 2014, with separate quant, low-latency infra and live-surveillance roles. https://orange-quant.com",
+    "contacts": [
+      {
+        "email": "piyush.daga@orange-quant.com",
+        "kind": "person",
+        "person_name": "Piyush Daga",
+        "source_url": "https://orange-quant.com",
+        "confidence": "high"
+      },
+      {
+        "email": "harsh.sanghvi@orange-quant.com",
+        "kind": "person",
+        "person_name": "Harsh Sanghvi",
+        "source_url": "https://orange-quant.com",
+        "confidence": "high"
+      }
+    ],
+    "other_contact": "",
+    "founders_or_key_people": [
+      "Piyush Pravinkumar Daga (director of sister company Paradigm Quant Research Pvt Ltd, same Market Yard address; listed contact)",
+      "Harsh Sanghvi (director of Paradigm Quant Research Pvt Ltd; listed contact)"
+    ],
+    "notes": "Best-fit Pune HFT/quant boutique found. Careers section names Quant / Infra / Surveillance tracks, invites people to get in touch. No formal internship programme seen. The two named contacts are the directors of the related company, so these are effectively founder emails: write to both or pick one, not separately twice."
+  },
+  {
+    "name": "Capstone Securities Analysis Pvt Ltd (CSAPL)",
+    "website": "http://www.capstonesa.com",
+    "pune_evidence": "Indeed company page: HQ Pune, jobs in Yerwada, Pune incl. 'Research Analyst/ Quant Trader'. https://in.indeed.com/cmp/Capstone-Securities-Analysis ; office at Commerzone, Tower 1, Ground Floor, Airport Road, Yerawada, Pune (forex.in.rs list https://www.forex.in.rs/proprietary-trading-companies-in-india/)",
+    "what_they_do": "Proprietary day-trading of US equities (NASDAQ/NYSE/AMEX) from Pune using firm capital; trains in-house traders.",
+    "personalization_hook": "Large Pune prop desk (201-500 staff per Indeed) trading US equities with firm capital, currently advertising a Research Analyst / Quant Trader role in Yerwada. https://in.indeed.com/cmp/Capstone-Securities-Analysis",
+    "contacts": [
+      {
+        "email": "prashant.mahagaonkar@capstonesa.com",
+        "kind": "hr",
+        "person_name": "Prashant Mahagaonkar",
+        "source_url": "https://www.pagalguy.com/t/prop-trader-us-financial-markets-only-for-freshers-pune/3043353",
+        "confidence": "medium"
+      }
+    ],
+    "other_contact": "http://www.capstonesa.com",
+    "founders_or_key_people": [],
+    "notes": "Email comes from a company job post on PagalGuy (older post; may be stale). More of a US-equity day-trading desk than a quant research shop; mainly fresher-trader hiring."
+  },
+  {
+    "name": "Gemscap Global Analyst Pvt Ltd",
+    "website": "",
+    "pune_evidence": "Job posts give work location Eon Free Zone, Cluster D, Wing 2, 3rd Floor, Kharadi, Pune 411014. https://cutshort.io/job/Fresher-Equity-Analyst-US-Stock-Market-Trainee-Trader-Pune-Gemscap-Global-Analyst-PVT-LTD-O0X6j2B2 ; Indeed Pune listing 'LEARNERS (Equity Traders)' Kharadi.",
+    "what_they_do": "US equity and options trading/analysis desk in Kharadi, Pune hiring trainee traders and analysts (equity research and trading analytics).",
+    "personalization_hook": "Runs a US equities and options analysis/trading desk out of EON Free Zone, Kharadi, with work on options strategies and daily market reports. https://cutshort.io/job/Fresher-Equity-Analyst-US-Stock-Market-Trainee-Trader-Pune-Gemscap-Global-Analyst-PVT-LTD-O0X6j2B2",
+    "contacts": [],
+    "other_contact": "https://cutshort.io/company/gemscap-global-analyst-pvt-ltd-07-gLrPW9Eh (recruiter Ajay Mahajan posts jobs there)",
+    "founders_or_key_people": [
+      "Ajay Mahajan (recruiter on Cutshort)"
+    ],
+    "notes": "Likely India arm of US prop firm GEMSCAP (not verified). No official website/email found. Low quant depth; trainee-trader style hiring."
+  },
+  {
+    "name": "Clearmind Consultancy Pvt Ltd (Clearmind PMS)",
+    "website": "https://www.iamclearmind.com",
+    "pune_evidence": "Official site: 106, 1st Floor, Jewel Square Mall, Koregaon Park, Pune 411001. https://www.iamclearmind.com/wealth-management-pune",
+    "what_they_do": "SEBI-registered PMS (INP000009816) and RA; 'systems over predictions' with quant signal generation, regime-aware positioning and automated execution under a founder-led discretionary overlay.",
+    "personalization_hook": "Splits the process into a human layer (regime identification, allocation) and a machine layer (quant signals, sizing, automated execution); Polaris PMS uses regime-aware positioning (matches his HMM regime project). https://www.iamclearmind.com/",
+    "contacts": [
+      {
+        "email": "admin@iamclearmind.com",
+        "kind": "info",
+        "person_name": "",
+        "source_url": "https://www.iamclearmind.com/",
+        "confidence": "high"
+      }
+    ],
+    "other_contact": "https://www.iamclearmind.com/contact ; https://cal.com/iamclearmind/talk",
+    "founders_or_key_people": [
+      "Punam Kucheria (Director; founder-led)"
+    ],
+    "notes": "Hybrid quant/discretionary PMS, not a trading firm per se. Email was Cloudflare-obfuscated on the homepage and decoded. Small firm; no careers page."
+  },
+  {
+    "name": "FlexTrade Systems (Pune office)",
+    "website": "https://flextrade.com",
+    "pune_evidence": "Official contact page: 201, Summer Court, Magarpatta City, Hadapsar, Pune 411028; careers page lists Pune roles (e.g. Technical Analyst C++). https://flextrade.com/contact/",
+    "what_they_do": "Broker-neutral multi-asset execution/order management and algorithmic trading software (FlexTRADER, FlexOPT options products) used by buy-side and sell-side trading desks.",
+    "personalization_hook": "Builds FlexTRADER, described as the first broker-neutral execution management system, plus options/market-making modules (FlexOPT, FlexOPT-OMM); Pune is one of its six engineering/support hubs. https://careers.flextrade.com/o/technical-analyst-2031",
+    "contacts": [
+      {
+        "email": "hr@flextrade.com",
+        "kind": "hr",
+        "person_name": "",
+        "source_url": "https://flextrade.com/contact/",
+        "confidence": "high"
+      }
+    ],
+    "other_contact": "https://flextrade.com/careers/",
+    "founders_or_key_people": [
+      "Vijay Kedia (founder/CEO, FlexTrade; from general knowledge, not verified here)",
+      "Manish Kedia (MD, FlexTrade Systems, per 2011 TheTradeNews article)"
+    ],
+    "notes": "Trading-technology vendor, not a trading firm; listed hr@ is labelled for employee verification on the site, so better to apply via careers page. No internship programme listed."
+  },
+  {
+    "name": "AllianceBernstein (AB) India, Pune",
+    "website": "https://www.alliancebernstein.com",
+    "pune_evidence": "AB India office in Pune opened 2023; press release names Pune 'a key growth engine'. https://alliancebernsteinholdinglp.gcs-web.com/news-releases/news-release-details/alliancebernstein-announces-pawan-panjwani-ceo-and-country-head ; Pune job 'AO/Quantitative Developer' https://builtin.com/job/aoquantitative-developer/4494668",
+    "what_they_do": "Global asset manager; Pune hub hosts investment research, technology and the buy-side Index & Derivative Solutions team building a systematic options investment platform.",
+    "personalization_hook": "AB's Index & Derivative Solutions team in Pune builds the platform for its systematic options strategies (simulation, portfolio construction, factor research, risk). https://builtin.com/job/aoquantitative-developer/4494668",
+    "contacts": [],
+    "other_contact": "https://careers.alliancebernstein.com (apply; no public email found)",
+    "founders_or_key_people": [
+      "Pawan Panjwani (CEO & Country Head, India)",
+      "Karl Sprules (COO, AB)"
+    ],
+    "notes": "Large firm; cold email unlikely to be routed; better via careers portal or LinkedIn of Pune quant staff. The quoted job was removed Jul 2025, so the team may have changed."
+  },
+  {
+    "name": "Bajaj Finserv Asset Management Ltd (Bajaj Finserv Mutual Fund)",
+    "website": "https://www.bajajamc.com",
+    "pune_evidence": "AMFI member page lists AMC address S. No. 208-1B, Off Pune Ahmednagar Road, Lohagaon, Viman Nagar, Pune 411014. https://portal.amfiindia.com/amfiMembers.aspx?mfid=75",
+    "what_they_do": "Pune-headquartered mutual fund house; investment philosophy 'INQUBE' combines information, quantitative (analytical) and behavioural edges.",
+    "personalization_hook": "Its INQUBE philosophy names an explicit 'Analytical (Quantitative) Edge' alongside a behavioural-finance edge. https://bajajamc.com/about-us",
+    "contacts": [
+      {
+        "email": "compliance@bajajamc.com",
+        "kind": "info",
+        "person_name": "Harish Iyer (Company Secretary & Compliance Officer)",
+        "source_url": "https://portal.amfiindia.com/amfiMembers.aspx?mfid=75",
+        "confidence": "medium"
+      }
+    ],
+    "other_contact": "https://www.bajajamc.com (careers section)",
+    "founders_or_key_people": [
+      "Ganesh Mohan (Wholetime Director & CEO)",
+      "Nimesh Chandan (CIO)",
+      "Sanjiv Bajaj (Chairman)"
+    ],
+    "notes": "Mutual fund, not a trading firm; borderline for this segment. Compliance email is not an HR channel; don't use for a CV. Large Pune employer with research team."
+  },
+  {
+    "name": "Nebula Capital (Pune)",
+    "website": "",
+    "pune_evidence": "Indeed company page: two 'Equity Trader (US)' openings in Lohegaon, Pune. https://in.indeed.com/cmp/Nebula-Capital",
+    "what_they_do": "US-equity trading desk hiring entry-level equity traders in Lohegaon, Pune (no further public information).",
+    "personalization_hook": "",
+    "contacts": [],
+    "other_contact": "https://in.indeed.com/cmp/Nebula-Capital",
+    "founders_or_key_people": [],
+    "notes": "WEAK LEAD: no website, no description, low stipend range (Rs 8.7k-50k/month). Not the same as New York's Nebula Research. Not recommended unless more is found."
+  }
+]

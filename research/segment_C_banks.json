@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Citi (Citigroup) - Pune",
+    "website": "https://www.citigroup.com",
+    "pune_evidence": "Official Citi job posts located in Pune: 'Quantitative Technology Developer - Python and C++ - VP' (Analytical Calculation Engine, ACE), 'Counterparty Credit Risk Quant Technology Lead' (ACE, Commodities pricing/risk), 'Markets Price and Model Risk and Control SVP', and 'Business Model Validation and Implementation - Analyst II' (Risk Management / Model Development & Analytics).",
+    "pune_evidence_url": "https://jobs.citi.com/job/pune/quantitative-technology-developer-python-and-c-vice-president/287/100400109312",
+    "pune_evidence_urls_extra": [
+      "https://jobs.citi.com/job/pune/counterparty-credit-risk-quant-technology-lead-python-c/287/99985729488",
+      "https://jobs.citi.com/job/pune/markets-price-and-model-risk-and-control-svp-pune/287/84985363312",
+      "https://jobs.citi.com/job/pune/business-model-validation-and-implementation-analyst-ii/287/91438647968"
+    ],
+    "what_they_do_in_pune": "Builds Citi's strategic derivatives credit-risk/exposure engine (ACE) and commodities pricing/risk analytics, plus model validation and Markets model-risk control.",
+    "personalization_hook": "Citi's Pune ACE team builds the firm's strategic platform for derivatives counterparty-credit-risk and exposure calculations, implementing pricing and exposure models with Quantitative Research.",
+    "personalization_hook_url": "https://jobs.citi.com/job/pune/quantitative-technology-developer-python-and-c-vice-president/287/100400109312",
+    "contacts": [],
+    "other_contact": "https://jobs.citi.com (filter: Pune; job family 'Intern')",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "Citi India runs structured summer analyst programs and a posted 'US Consumer Cards Risk - Intern' role listing Pune among locations (posted 30 Mar 2026), but no winter/December program seen; a 6-week Dec slot would need an exception via a hiring manager.",
+    "notes": "Strongest Pune quant evidence of any bank found. Intern posting: https://jobs.citi.com/job/bengaluru/us-consumer-cards-risk-intern/287/93375592576 (locations Bengaluru, Mumbai, Haryana, Pune). No recruiting email published on any posting checked."
+  },
+  {
+    "name": "Deutsche Bank (DB India / DWS) - Pune",
+    "website": "https://www.db.com",
+    "pune_evidence": "Pune-located DB postings: 'DWS Senior Risk Analyst - Model Validation' (Pune - Margarpatta, DWS Model Risk); 'Credit Risk & Capital Strats, AVP' (Group Strategic Analytics, Pune); multiple 'Market Risk Analyst' roles in Pune.",
+    "pune_evidence_url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Pune---Margarpatta/DWS-Senior-Risk-Analyst---Model-Validation_R0452213",
+    "pune_evidence_urls_extra": [
+      "https://www.ai-governance-jobs.com/jobs/dws-senior-risk-analyst-model-validation-deutsche-bank-pune-margarpatta/",
+      "https://mygwork.com/jobs/deutsche-bank-credit-risk-amp-capital-strats-avp-6222213"
+    ],
+    "what_they_do_in_pune": "Model validation for DWS (asset management) risk models, credit-risk capital Strats (Group Strategic Analytics), and market risk management.",
+    "personalization_hook": "DB's Group Strategic Analytics has a Capital Strats team in Pune building credit-risk calculations that drive how the bank allocates capital.",
+    "personalization_hook_url": "https://mygwork.com/jobs/deutsche-bank-credit-risk-amp-capital-strats-avp-6222213",
+    "contacts": [],
+    "other_contact": "https://careers.db.com (India; Workday: https://db.wd3.myworkdayjobs.com/DBWebsite)",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "DB India hires via campus (analyst hires, CA interns, a 3-month 'Resume Your Resume' returnship in Mumbai Risk); GSA internships are advertised for Germany, not India; no December program seen.",
+    "notes": "Mygwork/ai-governance-jobs are aggregators mirroring DB Workday (medium confidence on details). No published India campus/recruiting email found."
+  },
+  {
+    "name": "UBS (incl. ex-Credit Suisse Pune) - Pune",
+    "website": "https://www.ubs.com",
+    "pune_evidence": "UBS 'Market Risk Model Validation Quantitative Analyst' posting states the Model Risk Management & Control (MRMC) market-risk team has staff in Zurich, Hyderabad and Pune. UBS India careers page says its ~15,000 India staff are spread across Mumbai, Pune and Hyderabad.",
+    "pune_evidence_url": "https://jobs.quintedge.com/jobs/market-risk-model-validation-quantitative-analyst-ubs-vivnfn",
+    "pune_evidence_urls_extra": [
+      "https://www.ubs.com/global/en/careers/about-us/locations/india.html"
+    ],
+    "what_they_do_in_pune": "Independent validation of market-risk models (VaR, FRTB, stress loss, RWA projections) within MRMC, plus large ex-Credit Suisse operations/tech center.",
+    "personalization_hook": "UBS's MRMC market-risk validation team (Zurich/Hyderabad/Pune) independently validates VaR and FRTB models used for Pillar 1/2 capital.",
+    "personalization_hook_url": "https://jobs.quintedge.com/jobs/market-risk-model-validation-quantitative-analyst-ubs-vivnfn",
+    "contacts": [],
+    "other_contact": "https://ubs.com/global/en/careers/early-careers/opportunities/internship-program-india.html",
+    "winter_internship_plausibility": "medium",
+    "winter_internship_plausibility_reason": "UBS publishes an 'Internship Program India' with summer (2 months) and regular (6-12 months) internships for enrolled students, run via select institutes; a 6-week December slot is shorter than the regular track but UBS India does run off-cycle internships.",
+    "notes": "Pune evidence for quant team comes via an aggregator (quintedge) mirroring a UBS posting; medium confidence. No email published on UBS India pages."
+  },
+  {
+    "name": "BNY (Bank of New York Mellon) - Pune",
+    "website": "https://www.bny.com",
+    "pune_evidence": "BNY 'Specialist, Model Risk Management' posting located Pune/Chennai (Enterprise Model Risk Management: credit, treasury, market, pricing, forecasting models; 0-2 yrs, Master's/PhD); 'Senior Specialist, Model Risk Analytics, AI & ML' in Pune.",
+    "pune_evidence_url": "https://www.themuse.com/jobs/bnymellon/specialist-model-risk-management-ac2e17",
+    "pune_evidence_urls_extra": [
+      "https://hackajob.com/job/e3156f96-49da-11f1-a7b8-0a05e249917d-senior-specialist-model-risk-analytics-ai-ml"
+    ],
+    "what_they_do_in_pune": "Enterprise model risk management/validation, including building shadow models and AI/LLM tooling to automate model validation and monitoring.",
+    "personalization_hook": "BNY's Pune Model Risk Analytics, AI & Solutions team builds ML/GenAI tools to automate model validation, monitoring and reporting.",
+    "personalization_hook_url": "https://hackajob.com/job/e3156f96-49da-11f1-a7b8-0a05e249917d-senior-specialist-model-risk-analytics-ai-ml",
+    "contacts": [],
+    "other_contact": "https://www.bny.com/corporate/global/en/careers.html",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "BNY India runs a 10-week Summer Intern / Early Career Program in Chennai and Pune for penultimate-year students; no winter program seen.",
+    "notes": "Summer program listing: https://kalingauniversity.prosple.com/graduate-employers/bny-mellon/jobs-internships/summer-intern-early-career-programs (Chennai & Pune, 10 weeks). Good fit for probability/ML profile; entry-level MRM role asks 0-2 yrs."
+  },
+  {
+    "name": "Northern Trust - Pune",
+    "website": "https://www.northerntrust.com",
+    "pune_evidence": "Northern Trust 'Consultant / Associate Consultant, Market Trading Risk Analytics (Pune/Bangalore)' reporting to Head of Corporate Trading Market Risk; also 'Senior Consultant, Liquidity Risk (Pune/Bangalore)'.",
+    "pune_evidence_url": "https://jobs.garp.org/job/consultant-market-trading-risk-analytics-punebangalore/85117349/",
+    "pune_evidence_urls_extra": [
+      "https://jobs.garp.org/job/associate-consultant-market-trading-risk-analytics-punebangalore/85648372/",
+      "https://jobs.garp.org/job/senior-consultant-liquidity-risk-punebangalore/84743785/"
+    ],
+    "what_they_do_in_pune": "Daily FX trading market-risk oversight (VaR, limits, stress testing, P&L attribution) supporting Chicago trading desks, plus liquidity risk.",
+    "personalization_hook": "Northern Trust's Pune market trading risk analytics team runs daily VaR, stress testing and limit monitoring for the firm's FX trading business.",
+    "personalization_hook_url": "https://jobs.garp.org/job/consultant-market-trading-risk-analytics-punebangalore/85117349/",
+    "contacts": [],
+    "other_contact": "https://careers.northerntrust.com",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "No India quant/risk internship program found; roles seen are experienced hires (MBA/CA, 6+ yrs).",
+    "notes": "Only email seen on NT postings is MyHRHelp@ntrs.com, explicitly for accommodation requests (not recruiting) - do not use for outreach. GARP job board is a reputable mirror (medium)."
+  },
+  {
+    "name": "Barclays - Pune (Kharadi campus)",
+    "website": "https://home.barclays",
+    "pune_evidence": "Official Barclays posting 'Credit eTrading Dev' based in Pune; 'Cross Markets Software Engineer' in Pune. Barclays' Pune campus (Kharadi, ~1.1M sq ft, ~9,000 staff) supports wholesale/markets. Barclays' quant/model-risk roles in India (Quantitative Modeler, Traded Risk Validation, Model Risk Management) are posted mainly in Noida/Mumbai, not Pune.",
+    "pune_evidence_url": "https://search.jobs.barclays/job/pune/credit-etrading-dev/13015/94971572752",
+    "pune_evidence_urls_extra": [
+      "https://search.jobs.barclays/job/pune/cross-markets-software-engineer/13015/94171165488",
+      "https://home.barclays/news/press-releases/2019/12/barclays-inaugurates-new-world-class-campus-in-pune"
+    ],
+    "what_they_do_in_pune": "Markets technology incl. credit electronic-trading development; quant modelling/validation teams sit mostly in Noida/Mumbai.",
+    "personalization_hook": "Barclays' Pune campus in Kharadi houses about 9,000 of its India staff and hosts Credit eTrading development for the investment bank.",
+    "personalization_hook_url": "https://home.barclays/news/press-releases/2019/12/barclays-inaugurates-new-world-class-campus-in-pune",
+    "contacts": [],
+    "other_contact": "https://search.jobs.barclays (category: Risk and Quantitative Analytics; early careers: https://search.jobs.barclays/graduates-quantitative-analytics)",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "Barclays India runs summer internships (e.g. Technology Summer Intern - Pune) but no December/winter program found.",
+    "notes": "Quant evidence in Pune is eTrading tech rather than QA/model risk; Pune-specific quant team is weaker than Citi/DB/BNY. No published email."
+  },
+  {
+    "name": "MSCI - Pune",
+    "website": "https://www.msci.com",
+    "pune_evidence": "Official MSCI posting 'C++ Analytics Developer' - Global Performance Attribution Engine Development team based in MSCI's Pune office (WeWork Panchshil Futura, Magarpatta Road, Hadapsar).",
+    "pune_evidence_url": "https://careers.msci.com/job/technology/pune/c-analytics-developer/2025-3005",
+    "what_they_do_in_pune": "Builds and re-architects MSCI's performance-attribution analytics engine in C++20.",
+    "personalization_hook": "MSCI's Pune team is re-architecting its Global Performance Attribution Engine in modern C++20.",
+    "personalization_hook_url": "https://careers.msci.com/job/technology/pune/c-analytics-developer/2025-3005",
+    "contacts": [],
+    "other_contact": "https://careers.msci.com",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "MSCI quant research roles in India are mostly Mumbai; site explicitly says MSCI does not accept unsolicited CVs.",
+    "notes": "Disability.Assistance@msci.com appears on postings but is restricted to accommodation requests - not for outreach. MSCI warns of recruitment scammers."
+  },
+  {
+    "name": "FIS (APT investment risk) - Pune",
+    "website": "https://www.fisglobal.com",
+    "pune_evidence": "FIS 'Risk Management with exposure to Market Risk and Market Data' / Consultant (Investment Risk) role in Pune with APT, FIS's investment risk and portfolio-construction group.",
+    "pune_evidence_url": "https://jobs.quintedge.com/jobs/risk-management-with-exposure-to-market-fis-77g7t2",
+    "pune_evidence_urls_extra": [
+      "https://careers.acfe.com/job/risk-management-with-exposure-to-market-risk-and-market-data/82359135"
+    ],
+    "what_they_do_in_pune": "Client-facing quantitative support for APT factor-risk and portfolio-optimisation software used by asset managers and hedge funds.",
+    "personalization_hook": "FIS's APT team in Pune supports investment-risk and portfolio-optimisation software used by pension funds and hedge funds.",
+    "personalization_hook_url": "https://jobs.quintedge.com/jobs/risk-management-with-exposure-to-market-fis-77g7t2",
+    "contacts": [],
+    "other_contact": "https://careers.fisglobal.com",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "No India internship for APT seen; role is 3-5 yrs experienced.",
+    "notes": "Evidence via aggregator mirrors (medium)."
+  },
+  {
+    "name": "AllianceBernstein (AB) - Pune",
+    "website": "https://www.alliancebernstein.com",
+    "pune_evidence": "AB 'AO/Quantitative Developer' in Pune with the buy-side Index & Derivative Solutions unit (systematic options platform; team growing in Pune and Nashville); AB 'Global Analytics Risk Operations Analyst' in Pune (MSCI RiskMetrics/Barra portfolio risk analytics); 'AVP/Investment Risk Analyst' Pune on eFinancialCareers.",
+    "pune_evidence_url": "https://builtin.com/job/aoquantitative-developer/4494668",
+    "pune_evidence_urls_extra": [
+      "https://joinsaarthi.com/jobs/alliancebernstein/global-analytics-risk-operations-analyst-pune/7f949219-6db3-4799-adbc-91770c9f427d",
+      "https://www.efinancialcareers.co.uk/jobs-India-Pune-AVPInvestment_Risk_Analyst.id24052919"
+    ],
+    "what_they_do_in_pune": "Quant development for a systematic options investment platform (simulation, portfolio construction, factor/risk research) and investment risk/performance analytics.",
+    "personalization_hook": "AB's Index & Derivative Solutions unit is growing a Pune team that builds its systematic options platform - simulation, portfolio construction and automated trade routing in Python.",
+    "personalization_hook_url": "https://builtin.com/job/aoquantitative-developer/4494668",
+    "contacts": [],
+    "other_contact": "https://careers.alliancebernstein.com",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "No AB India internship program found; small, fast-growing quant team may be more open to a direct approach via LinkedIn than large banks.",
+    "notes": "Closest thing to buy-side quant work in Pune among large institutions. Quant dev listing removed 28 Jul 2025 (still evidence of team)."
+  },
+  {
+    "name": "Crisil (an S&P Global company) - Pune",
+    "website": "https://www.crisil.com",
+    "pune_evidence": "Crisil Pune postings: 'Research Analyst/Senior Research Analyst - Credit Valuations' (private-credit valuation models using PD/recovery), Pune; 'Analyst' credit/risk analysis (Pune/Mumbai); aggregator lists Crisil 'Quantitative Analyst' and 'Senior Quantitative Analyst (R/R Shiny)' in Pune.",
+    "pune_evidence_url": "https://joinsaarthi.com/jobs/crisil/research-analyst-senior-research-analyst-credit-valuations-pune/e30fbbdd-049e-4fd3-b10e-600bf1eb4ed2",
+    "pune_evidence_urls_extra": [
+      "https://jobs.quintedge.com/jobs/in/pune/quantitative-finance",
+      "https://joinsaarthi.com/jobs/crisil/analyst-pune/066dab08-d730-468d-a9de-ec0d3b474cfe"
+    ],
+    "what_they_do_in_pune": "Outsourced research/risk analytics for global banks and buy-side clients, incl. private-credit valuation models and quant analytics.",
+    "personalization_hook": "Crisil's Pune valuations team builds credit-valuation models for a buy-side client's private-credit book using default probabilities and recovery rates.",
+    "personalization_hook_url": "https://joinsaarthi.com/jobs/crisil/research-analyst-senior-research-analyst-credit-valuations-pune/e30fbbdd-049e-4fd3-b10e-600bf1eb4ed2",
+    "contacts": [],
+    "other_contact": "https://www.crisil.com/en/home/careers.html",
+    "winter_internship_plausibility": "medium",
+    "winter_internship_plausibility_reason": "Crisil posts frequent ad-hoc 'Intern - Global Research & Risk Solutions' roles with ASAP starts (seen for Chennai, deadline Sep 2025) - shorter off-cycle internships are more common here than at global banks.",
+    "notes": "Intern listing: https://in.prosple.com/graduate-employers/crisil/jobs-internships/intern-global-research-risk-solutions (Chennai, expired). Evidence mostly from aggregators (medium/low)."
+  },
+  {
+    "name": "Bajaj Finance (Bajaj Finserv group) - Pune HQ",
+    "website": "https://www.bajajfinserv.in",
+    "pune_evidence": "Bajaj Finance 'Lead - Risk' role at Pune Corporate Office (Fountainhead): design, develop and monitor customer risk models, scorecards, end-to-end risk modelling, working with the Risk Analytics Head and CRO.",
+    "pune_evidence_url": "https://jobs.weekday.works/lead-risk-at-bajaj-finserv-4370142960",
+    "what_they_do_in_pune": "Headquarters risk analytics: credit-risk scorecards, customer risk models and portfolio monitoring for India's largest NBFC.",
+    "personalization_hook": "Bajaj Finance's Pune corporate office owns end-to-end customer risk modelling and scorecards, working directly with its Risk Analytics Head and CRO.",
+    "personalization_hook_url": "https://jobs.weekday.works/lead-risk-at-bajaj-finserv-4370142960",
+    "contacts": [],
+    "other_contact": "https://www.bajajfinserv.in/careers",
+    "winter_internship_plausibility": "medium",
+    "winter_internship_plausibility_reason": "Domestic firm HQ'd in Pune that recruits heavily at IITs (111 IIT offers incl. IIT Bombay per 2019 report); aggregator listings show data-science/credit-analyst intern roles in Pune; Indian firms are more flexible on December internships.",
+    "notes": "IIT offers article: https://www.punekarnews.in/bajaj-finserv-rolls-out-111-offers-to-the-students-from-indian-institute-of-technology/ . Intern listings seen only on low-confidence aggregators (myinternships.in) - not recorded as contacts. No published recruiting email found."
+  },
+  {
+    "name": "Mastercard - Pune Tech Hub",
+    "website": "https://www.mastercard.com",
+    "pune_evidence": "Mastercard opened a Pune Tech Hub (Oct 2024) for 6,000+ technologists - its largest single-city workforce - supporting global tech for payment safety, cybersecurity, fraud detection and digital identity; Lead/Manager Data Scientist roles posted in Pune.",
+    "pune_evidence_url": "https://www.mastercard.com/news/ap/en/newsroom/press-releases/en/2024/mastercard-opens-new-state-of-the-art-tech-hub-in-pune-india/",
+    "pune_evidence_urls_extra": [
+      "https://builtin.com/job/manager-data-scientist/6617122"
+    ],
+    "what_they_do_in_pune": "Fraud detection, payment security and data-science engineering for global network operations (ML-heavy rather than finance-quant).",
+    "personalization_hook": "Mastercard's Pune Tech Hub, opened in October 2024, is its largest workforce in any single city, with 6,000+ technologists working on fraud detection and payment security.",
+    "personalization_hook_url": "https://www.mastercard.com/news/ap/en/newsroom/press-releases/en/2024/mastercard-opens-new-state-of-the-art-tech-hub-in-pune-india/",
+    "contacts": [],
+    "other_contact": "https://careers.mastercard.com",
+    "winter_internship_plausibility": "low",
+    "winter_internship_plausibility_reason": "Mastercard India internships are campus summer programs; no winter program seen.",
+    "notes": "ML/fraud-risk fit rather than trading quant. Pune data-science team specifics only via aggregator listings."
+  }
+]

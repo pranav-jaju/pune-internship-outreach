@@ -1,0 +1,812 @@
+[
+ {
+  "name": "iRage Broking Services LLP (iRageCapital)",
+  "website": "https://www.irage.in",
+  "city": "Mumbai (also Kolkata; registered GIFT City)",
+  "size": "mid-size",
+  "what_they_do": "Automated, mostly high-frequency trading in Indian markets: market-making, arbitrage-based liquidity taking and statistical arbitrage.",
+  "personalization_hook": "Founded in Mumbai in 2013; describes its strategies as market-making, arbitrage-based liquidity taking and statistical arbitrage, and lists an 'Intern (Quant Analyst / Software Developer)' role in Mumbai.",
+  "hook_source_url": "https://www.irage.in/recruitment.php",
+  "contacts": [
+   {
+    "email": "hr@irage.in",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.irage.in/recruitment.php",
+    "confidence": "high"
+   },
+   {
+    "email": "contact@irage.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.irage.in/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.irage.in/recruitment.php",
+  "founders_or_key_people": [
+   "Founders not named on site"
+  ],
+  "notes": "Lists intern roles (Quant Analyst / Software Developer, Mumbai) on its recruitment page; hr@ is given for application questions. Also runs the AlgoArena hackathon. Apply via the role page and mention it in the email.",
+  "do_not_email": false
+ },
+ {
+  "name": "AlphaGrep Securities",
+  "website": "https://alpha-grep.com",
+  "city": "Gurugram / Mumbai / Bangalore (plus global offices)",
+  "size": "mid-to-large",
+  "what_they_do": "Quantitative trading firm that researches and runs algorithmic strategies across asset classes on 30+ exchanges and is a major market maker.",
+  "personalization_hook": "Trades on 30+ exchanges and calls itself a leading market maker; its careers page lists 'Intern Hiring 2027 Bengaluru'.",
+  "hook_source_url": "https://alpha-grep.com/career/",
+  "contacts": [
+   {
+    "email": "career@alpha-grep.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://alpha-grep.com/connect/",
+    "confidence": "high"
+   },
+   {
+    "email": "connect@alpha-grep.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://alpha-grep.com/connect/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://alpha-grep.com/career/",
+  "founders_or_key_people": [
+   "Founders not named on site (publicly associated with Mohit Mutreja and Parikshit Chitalkar; unverified here)"
+  ],
+  "notes": "Mostly campus-driven; intern listing is a 2027 Bengaluru program, so a December online stint is a long shot. Still has a published recruitment address.",
+  "do_not_email": false
+ },
+ {
+  "name": "Quadeye Securities",
+  "website": "https://www.quadeye.com",
+  "city": "Gurugram (also Kolkata, Gandhinagar)",
+  "size": "mid-to-large",
+  "what_they_do": "In-house-technology trading firm that studies market microstructure and order-book dynamics and executes on 100+ exchanges via its qe-core platform.",
+  "personalization_hook": "Its site centres on market microstructure and order-book dynamics, with an in-house execution platform (qe-core) spanning 100+ exchanges.",
+  "hook_source_url": "https://www.quadeye.com/",
+  "contacts": [
+   {
+    "email": "hrconnect@quadeye.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.quadeye.com/contact-us",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.quadeye.com/jobs",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Interns usually come through IIT campus process (IIT Bombay students have interned there per insightiitb summer blog). Large-ish; cold mail is low odds but the HR address is published.",
+  "do_not_email": false
+ },
+ {
+  "name": "NK Securities Research",
+  "website": "https://www.nksecurities.com",
+  "city": "Gurugram (Delhi NCR)",
+  "size": "mid-size",
+  "what_they_do": "HFT firm building low-latency trading systems and algorithmic strategies; team of engineers, mathematicians and statisticians.",
+  "personalization_hook": "Says it builds 'one of the fastest trading systems in the world' with a team of engineers, mathematicians and statisticians.",
+  "hook_source_url": "https://www.nksecurities.com/",
+  "contacts": [],
+  "other_contact": "https://job-boards.eu.greenhouse.io/nksecuritiesresearch",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "No email published on the site; applications via Greenhouse board. City from third-party listings.",
+  "do_not_email": false
+ },
+ {
+  "name": "Mathisys Quantcap LLP",
+  "website": "https://www.mathisys-india.com",
+  "city": "Gurugram (registered GIFT City)",
+  "size": "mid-size",
+  "what_they_do": "High-frequency trading firm trading 12 asset classes across global markets; SEBI-registered broker on NSE/BSE/MCX.",
+  "personalization_hook": "Describes itself as an HFT firm trading 12 asset classes across global capital markets from a Gurgaon corporate office.",
+  "hook_source_url": "https://www.mathisys-india.com/",
+  "contacts": [],
+  "other_contact": "https://www.mathisys-india.com/ (Work with Us / Open Positions links); phone 0124-4105373",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Only grievance/cybercrime emails published (ig@, cybercrimes-cid@), which are not appropriate for applications. Use the open-positions page.",
+  "do_not_email": false
+ },
+ {
+  "name": "Graviton Research Capital LLP",
+  "website": "https://www.gravitontrading.com",
+  "city": "Gurugram (registered GIFT City)",
+  "size": "mid-to-large",
+  "what_they_do": "Proprietary HFT firm running in-house strategies on its own low-latency platforms across asset classes and international markets.",
+  "personalization_hook": "Researches strategies on its own backtesting infrastructure and runs them on in-house low-latency platforms across international markets.",
+  "hook_source_url": "https://www.gravitontrading.com/",
+  "contacts": [],
+  "other_contact": "https://www.gravitontrading.com/careers.html (Greenhouse form)",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Only grievance/compliance/cybercrime emails on site; do not use those. Apply through Greenhouse.",
+  "do_not_email": false
+ },
+ {
+  "name": "Estee Advisors Pvt Ltd",
+  "website": "https://www.esteeadvisors.com",
+  "city": "Gurugram (registered GIFT City)",
+  "size": "mid-size",
+  "what_they_do": "Quant investment manager and execution provider running market-neutral quant products for HNIs and treasuries; algorithmic trading in India since 2008; retail arm Gulaq.",
+  "personalization_hook": "Has run algorithmic trading in India since 2008 and offers quant, market-neutral investment products, plus the Gulaq retail advisory arm.",
+  "hook_source_url": "https://www.esteeadvisors.com/",
+  "contacts": [
+   {
+    "email": "careers@esteeadvisors.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.esteeadvisors.com/careers",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.esteeadvisors.com/careers",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Careers page invites resumes for unlisted roles to careers@. Good cold-mail target.",
+  "do_not_email": false
+ },
+ {
+  "name": "Dolat Capital (Dolat Algotech)",
+  "website": "https://www.dolatcapital.com",
+  "city": "Mumbai",
+  "size": "mid-size",
+  "what_they_do": "Technology-driven multi-strategy financial services group (institutional equities, PMS, wealth) with an algorithmic trading arm, Dolat Algotech.",
+  "personalization_hook": "Runs a separate algorithmic arm, Dolat Algotech, alongside PMS and institutional equities; careers page has an Internship section.",
+  "hook_source_url": "https://www.dolatcapital.com/careers",
+  "contacts": [],
+  "other_contact": "https://www.dolatcapital.com/careers (Internship section, 'No openings currently')",
+  "founders_or_key_people": [
+   "Purvag Shah (Group MD)",
+   "Amit Khurana (Group CEO)",
+   "Dinesh Giridhar (MD & CEO, Asset & Wealth Mgmt)"
+  ],
+  "notes": "Note: the HFT prop firm 'Dolat Capital Market Pvt Ltd' (quant trader hiring on Instahyre) appears to be a related but separate entity; dolatalgotech.in blocks fetching. No careers email found.",
+  "do_not_email": false
+ },
+ {
+  "name": "APT Research Pvt Ltd (APT Portfolio)",
+  "website": "https://www.aptportfolio.com",
+  "city": "New Delhi (Aerocity); staff also in Bengaluru",
+  "size": "mid-size",
+  "what_they_do": "Proprietary trading firm building algorithmic strategies and providing liquidity on multiple exchanges worldwide; no client business.",
+  "personalization_hook": "A pure prop firm (name stands for Algorithms, Profit and Trust) that provides liquidity on exchanges worldwide and runs no client-facing products.",
+  "hook_source_url": "https://www.aptportfolio.com/",
+  "contacts": [
+   {
+    "email": "human.resources@aptportfolio.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.aptportfolio.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://boards.greenhouse.io/aptportfolio",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Hires quant traders, SWE and hardware engineers via Greenhouse; HR email published on homepage.",
+  "do_not_email": false
+ },
+ {
+  "name": "Pace Stock Broking Services Pvt Ltd (HFT / MFT desk)",
+  "website": "https://www.pacefin.in",
+  "city": "Gurugram / New Delhi",
+  "size": "mid-size",
+  "what_they_do": "Broking and wealth firm (30 years) with in-house HFT and mid-frequency quant teams trading Indian equity and F&O.",
+  "personalization_hook": "Careers page lists a Quant Researcher role on options and derivatives strategies (Gurugram) and a Quantitative Researcher role on its MFT team for Indian equity and F&O (Delhi).",
+  "hook_source_url": "https://www.pacefin.in/careers",
+  "contacts": [
+   {
+    "email": "contactus@pacefin.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.pacefin.in/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.pacefin.in/careers",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "No careers-specific email; only general contactus@ (info@pacefin.com is for complaints, don't use). No internships listed; all roles onsite full-time, so frame as a request.",
+  "do_not_email": false
+ },
+ {
+  "name": "Capitalmind (Capitalmind Wealth PMS / Capitalmind Research LLP)",
+  "website": "https://www.capitalmind.in",
+  "city": "Bengaluru",
+  "size": "boutique",
+  "what_they_do": "Bengaluru investing research firm and PMS that runs rules-based (momentum and adaptive) portfolios alongside research on stocks, debt and macro.",
+  "personalization_hook": "Bengaluru research-led PMS whose careers page says it keeps unsolicited resumes on file for future roles.",
+  "hook_source_url": "https://premium.capitalmind.in/careers/",
+  "contacts": [
+   {
+    "email": "contact@premium.capitalmind.in",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://premium.capitalmind.in/careers/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://premium.capitalmind.in/careers/",
+  "founders_or_key_people": [
+   "Deepak Shenoy (founder; widely reported, not confirmed on the fetched page)"
+  ],
+  "notes": "Careers page: 'At this time, we do not have any open positions' but resumes are kept on file. Contact address is shared for careers, general and grievances. Momentum-strategy claim from general knowledge; verify on its site before using in an email.",
+  "do_not_email": false
+ },
+ {
+  "name": "Qode Advisors LLP",
+  "website": "https://www.qodeinvest.com",
+  "city": "Mumbai (Lower Parel)",
+  "size": "boutique",
+  "what_they_do": "Quant-focused PMS running data-driven strategies (All Weather, Tactical, Growth/small-cap).",
+  "personalization_hook": "Calls itself a pioneer of quant investing in India; fund manager Rishabh Nahar builds its proprietary algorithms and its All Weather and Tactical strategies are rule-driven.",
+  "hook_source_url": "https://pmsbazaar.com/AMC/Qode-Advisors-LLP/PMS",
+  "contacts": [],
+  "other_contact": "https://www.qodeinvest.com/ (site blocks automated fetch; check contact page manually)",
+  "founders_or_key_people": [
+   "Rishabh Nahar (Fund Manager, quant research)",
+   "Gaurav Didwania (Fund Manager)"
+  ],
+  "notes": "No official email found (site not fetchable). Good boutique fit for HMM regime / all-weather allocation project; find email by visiting site manually.",
+  "do_not_email": false
+ },
+ {
+  "name": "Quantace Research",
+  "website": "https://www.quantace.in",
+  "city": "Mumbai (Malad West)",
+  "size": "boutique",
+  "what_they_do": "SEBI-registered research analyst publishing quant and ML-driven equity baskets via Smallcase and Dhan.",
+  "personalization_hook": "Builds its investment baskets with quantitative research and machine learning and distributes them through Smallcase and Dhan.",
+  "hook_source_url": "https://www.quantace.in/",
+  "contacts": [
+   {
+    "email": "support@quantace.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.quantace.in/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Not named on the fetched page"
+  ],
+  "notes": "Only a support inbox is published; ask to have it forwarded to the research team.",
+  "do_not_email": false
+ },
+ {
+  "name": "QuantInsti Quantitative Learning Pvt Ltd",
+  "website": "https://www.quantinsti.com",
+  "city": "Mumbai (Powai)",
+  "size": "mid-size",
+  "what_they_do": "Algorithmic and quant trading education company (EPAT, Quantra courses, Blueshift backtesting platform); sister company of iRage.",
+  "personalization_hook": "Runs the Blueshift strategy research platform and Quantra courses, so quant content and strategy research are its core work.",
+  "hook_source_url": "https://www.quantinsti.com/contact-us",
+  "contacts": [
+   {
+    "email": "careers@quantinsti.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.quantinsti.com/contact-us",
+    "confidence": "high"
+   },
+   {
+    "email": "contact@quantinsti.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.quantinsti.com/contact-us",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.quantinsti.com/careers",
+  "founders_or_key_people": [
+   "Not named on fetched pages (co-founded by iRage founders; unverified here)"
+  ],
+  "notes": "Not a trading firm, but a realistic remote December project (strategy research / content on Blueshift). careers@ listed for jobs and HR.",
+  "do_not_email": false
+ },
+ {
+  "name": "Futures First Info Services",
+  "website": "https://futuresfirst.com",
+  "city": "Gurugram / Kolkata / Bengaluru / Hyderabad / Ahmedabad / Jaipur",
+  "size": "mid-to-large",
+  "what_they_do": "Derivatives analytics and trading services firm analysing futures and options across international exchanges with in-house trading systems.",
+  "personalization_hook": "Analyses futures and options on international exchanges and builds its own trading and analytics systems; offices in six Indian cities.",
+  "hook_source_url": "https://futuresfirst.com/",
+  "contacts": [],
+  "other_contact": "https://futuresfirst.com/job-list/ (also contact form at https://futuresfirst.com/contact/)",
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "No email published; apply via job list / contact form.",
+  "do_not_email": false
+ },
+ {
+  "name": "QED Capital Advisors LLP",
+  "website": "https://qedcap.com",
+  "city": "Mumbai (Prabhadevi)",
+  "size": "boutique (~Rs 49 cr AUM, 20 clients as of Aug 2026)",
+  "what_they_do": "Systematic, rules-based PMS: AlphaBets (momentum, volatility and trend on mid/small caps) and Core Equity (low-vol, quality, value, momentum on top 300 stocks).",
+  "personalization_hook": "AlphaBets combines long-term momentum, volatility and trend measures systematically; Core Equity blends low-volatility, quality, value and momentum factors with scheduled rebalancing.",
+  "hook_source_url": "https://qedcap.com/",
+  "contacts": [
+   {
+    "email": "info@qedcap.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://qedcap.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Anish Teli (Managing Partner; CA, ISB MBA; ex ICICI Venture, Morgan Stanley PE)",
+   "Alpa Kapadia (Partner & Investor Relations)"
+  ],
+  "notes": "Tiny team; addressing Anish Teli by name via info@ is reasonable. Very good fit for the momentum/vol/risk-parity allocation project.",
+  "do_not_email": false
+ },
+ {
+  "name": "ArthAlpha LLP",
+  "website": "https://www.arthalpha.in",
+  "city": "Bengaluru",
+  "size": "boutique startup (raised ~$2m)",
+  "what_they_do": "AI-driven quant PMS; its MEQ (Machine Learning Equity Quant) strategy uses ML, causal inference and Bayesian signal modelling on NIFTY Large-Midcap stocks.",
+  "personalization_hook": "MEQ combines machine learning, causal inference and Bayesian signal modelling, including signals from earnings calls and filings (launched Oct 2024).",
+  "hook_source_url": "https://cxotoday.com/press-release/arthalpha-unveils-indias-first-deep-tech-ai-powered-quantitative-investment-strategy/",
+  "contacts": [],
+  "other_contact": "https://www.arthalpha.in/ (site blocks automated fetch; check its contact/careers page manually)",
+  "founders_or_key_people": [
+   "Rohit Beri (Co-founder & CIO; ex CIO True Beacon, co-founder Riemann Capital)",
+   "Rohit Jha (Co-founder)"
+  ],
+  "notes": "Strong ML + probabilistic fit; founded 2022. No email seen on any page I could read.",
+  "do_not_email": false
+ },
+ {
+  "name": "Astratinvest",
+  "website": "https://astratinvest.com",
+  "city": "Mumbai (careers page) / New Delhi (press report)",
+  "size": "boutique startup",
+  "what_they_do": "Quant Category III AIF (Quant Long Short Fund) built from four systematic engines for market exposure, cap allocation, stock selection and portfolio risk-reward optimisation.",
+  "personalization_hook": "Its Quant Long Short Fund combines four engines (MSQ market exposure, VSQ cap allocation, S1+S2 stock selection, RRQ risk-reward optimisation); careers page lists Quant Researcher/Trader and Founder's Office roles.",
+  "hook_source_url": "https://www.cxodigitalpulse.com/?p=36170",
+  "contacts": [],
+  "other_contact": "https://career.astratinvest.com/",
+  "founders_or_key_people": [
+   "Shivam Agrawal (Co-founder & CEO; ex Wells Fargo)",
+   "Akash Gupta (Co-founder, CIO & MD; ex Reliance Jio AI)"
+  ],
+  "notes": "No email published; 'Founder's Office' role suggests openness to generalists. Apply through career site and mention a short December project.",
+  "do_not_email": false
+ },
+ {
+  "name": "Whitespace Alpha",
+  "website": "https://www.whitespacealpha.com",
+  "city": "Hyderabad (Madhapur); GIFT City for international fund",
+  "size": "mid-size boutique",
+  "what_they_do": "Category III AIF running market-neutral strategies driven by quantitative models and model-driven execution; research and backtesting on proprietary capital.",
+  "personalization_hook": "Runs market-neutral Equity Plus / Debt Plus / Hybrid Plus funds on quantitative models, researched and backtested on its own capital first.",
+  "hook_source_url": "https://www.whitespacealpha.com/",
+  "contacts": [],
+  "other_contact": "Contact form on https://www.whitespacealpha.com/ ; phone/WhatsApp +91 89775 07481 (email is Cloudflare-obfuscated on site)",
+  "founders_or_key_people": [
+   "Praveen Dwarakanath (built the firm)",
+   "Puneet Sharma (CEO & Fund Manager)",
+   "Shiva Subramaniam (Head of Investment Strategy)"
+  ],
+  "notes": "Email exists on the site but is hidden by Cloudflare obfuscation; open the page in a browser to read it rather than guessing.",
+  "do_not_email": false
+ },
+ {
+  "name": "Teesta Investment Pvt Ltd",
+  "website": "https://teesta.co",
+  "city": "Kolkata (Mumbai office being set up)",
+  "size": "boutique (~22 people)",
+  "what_they_do": "Proprietary crypto trading firm running automated market-making and directional strategies 24/7 on centralised and decentralised venues, low-latency C++.",
+  "personalization_hook": "Founded 2021; runs automated market making and directional trading on centralised and decentralised crypto venues around the clock.",
+  "hook_source_url": "https://www.tradermath.org/firms/teesta-investment",
+  "contacts": [],
+  "other_contact": "Applications via Reczee portal (e.g. https://jobs.reczee.com/teesta/4Hwan/apply)",
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "Small firm with a published intern drive (Software Engineer intern, Kolkata, onsite). Crypto rather than Indian equity options.",
+  "do_not_email": false
+ },
+ {
+  "name": "Ebullient Securities",
+  "website": "https://www.ebullientsecurities.com",
+  "city": "Mumbai (per third-party lists; not stated on site)",
+  "size": "boutique",
+  "what_they_do": "Quantitative proprietary trading firm built on quantitative analysis and risk management.",
+  "personalization_hook": "Describes itself as a quantitative proprietary trading firm focused on quantitative analysis and risk management.",
+  "hook_source_url": "https://www.ebullientsecurities.com/",
+  "contacts": [],
+  "other_contact": "https://www.ebullientsecurities.com/",
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "Very thin website; no email or city. Low priority unless a LinkedIn contact is found.",
+  "do_not_email": false
+ },
+ {
+  "name": "Weekendinvesting Analytics Pvt Ltd",
+  "website": "https://weekendinvesting.com",
+  "city": "New Delhi",
+  "size": "boutique",
+  "what_they_do": "SEBI research analyst publishing rules-based momentum smallcases and strategies (Alok Jain's weekend investing approach).",
+  "personalization_hook": "Publishes rules-based momentum portfolios; its contact page invites job and business proposals at its support address.",
+  "hook_source_url": "https://weekendinvesting.com/contact-us/",
+  "contacts": [
+   {
+    "email": "support@weekendinvesting.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://weekendinvesting.com/contact-us/",
+    "confidence": "high"
+   },
+   {
+    "email": "alok@weekendinvesting.com",
+    "kind": "person",
+    "person_name": "Alok Jain (grievance officer; widely known as founder)",
+    "source_url": "https://weekendinvesting.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Alok Jain"
+  ],
+  "notes": "Contact page explicitly says to send job opportunities to support@. alok@ is printed as grievance-officer address; use support@ first.",
+  "do_not_email": false
+ },
+ {
+  "name": "Samvitti Capital",
+  "website": "https://www.samvitticapital.com (moving to samvitticapital.in)",
+  "city": "Bengaluru / Mulki (Mangalore)",
+  "size": "boutique",
+  "what_they_do": "PMS and AIF manager blending quantitative and qualitative analysis (known for momentum-driven Active Alpha strategies).",
+  "personalization_hook": "Builds its PMS/AIF portfolios by blending quantitative and qualitative analysis of markets and stocks.",
+  "hook_source_url": "https://www.samvitticapital.com/",
+  "contacts": [
+   {
+    "email": "investor-relations@samvitticapital.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://samvitticapital.in/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "Contact page on samvitticapital.in",
+  "founders_or_key_people": [
+   "Shivaram Kamath",
+   "Athul Kudva",
+   "Prabhakar Kudva"
+  ],
+  "notes": "Only an investor-relations inbox is published; a careers request there is a stretch but acceptable if worded briefly. Small team.",
+  "do_not_email": false
+ },
+ {
+  "name": "Plutus Research Pvt Ltd",
+  "website": "plutusresearch.com (per Tradermath; that domain currently shows spam, so verify)",
+  "city": "Bengaluru (Whitefield); registered address Ahmedabad",
+  "size": "boutique (~15 people)",
+  "what_they_do": "Proprietary HFT firm (founded 2017 by IIT and prop alumni) running market-making, aggressive and signal-based strategies on NSE equities, futures and options with low-latency C++.",
+  "personalization_hook": "Small team (~15) running market-making and signal-based strategies on NSE cash and derivatives since 2017.",
+  "hook_source_url": "https://www.tradermath.org/firms/plutus-research",
+  "contacts": [],
+  "other_contact": "Instahyre listings (e.g. https://www.instahyre.com/job-351025-network-and-system-engineer-at-plutus-research-bangalore/)",
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "Exactly the boutique profile wanted, but no verified official site/email. Find a founder on LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "Open Futures (Open Futures & Commodities Pvt Ltd)",
+  "website": "https://www.openfutures.in",
+  "city": "New Delhi (Nehru Place); also Gurugram, Noida, Mumbai, GIFT City",
+  "size": "mid-size (~75 people)",
+  "what_they_do": "HFT/prop firm (est. 2008) doing index arbitrage, volatility dispersion, statistical arbitrage and market making across equities, F&O, commodities and FX; early NSE co-location user.",
+  "personalization_hook": "Runs quant research and internships in Quantitative Research & Core Engineering with a 4-week winter option alongside 8-12 week summer and 6-month tracks.",
+  "hook_source_url": "https://www.openfutures.in/join-us/",
+  "contacts": [
+   {
+    "email": "hiring@openfutures.co.in",
+    "kind": "careers",
+    "person_name": "Talent Acquisition Department",
+    "source_url": "https://www.openfutures.in/join-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.openfutures.in/join-us/",
+  "founders_or_key_people": [
+   "Bhawna Joshi Pandey (Compliance Officer)",
+   "Management page: https://www.openfutures.in (Our Management)"
+  ],
+  "notes": "BEST FIT for December: explicitly offers 4-week winter internships for 3rd-year+ students (he is 2nd year, so ask anyway). Careers email uses .co.in while the site is .in, as printed on the page; double-check before sending. Strategies (vol dispersion, stat arb) match his options/vol work.",
+  "do_not_email": false
+ },
+ {
+  "name": "26 Miles Capital",
+  "website": "https://26milescapital.com",
+  "city": "Gurugram",
+  "size": "boutique startup",
+  "what_they_do": "Quant investment firm with a systematic-strategy marketplace (26Miles Marketplace), a cloud research platform (Sygnal) and a GIFT City Cat III AIF.",
+  "personalization_hook": "Built Sygnal, a cloud research environment for building and testing systematic strategies, plus a marketplace to license them; founders are ex-Quadeye and ex-DE Shaw/Tower.",
+  "hook_source_url": "https://26milescapital.com/",
+  "contacts": [
+   {
+    "email": "hr@26milescapital.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://26milescapital.com/",
+    "confidence": "high"
+   },
+   {
+    "email": "connect@26milescapital.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://26milescapital.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Ajay Vijay (CIO & Co-founder; ex Edelweiss, Quadeye)",
+   "Sumanshu Dwivedi (CTO & Co-founder; ex DE Shaw/Tower Research, Zomato)"
+  ],
+  "notes": "Strong boutique target; a remote strategy-research project on their Sygnal platform is a natural December pitch.",
+  "do_not_email": false
+ },
+ {
+  "name": "Wallsoft Labs",
+  "website": "https://www.wallsoft.in",
+  "city": "Gurugram (Sohna Road)",
+  "size": "boutique (~4 people per Tradermath)",
+  "what_they_do": "Algorithmic trading firm doing latency-sensitive options market-making, arbitrage and quant strategies on its in-house HFT platform 'X' (NSE equity, derivatives, currency).",
+  "personalization_hook": "Runs its own HFT platform 'X' on NSE equity, equity derivatives and currencies, with BSE and SGX/DGCX in development; offers profit-sharing to strategy developers.",
+  "hook_source_url": "https://www.wallsoft.in/",
+  "contacts": [
+   {
+    "email": "hello@wallsoft.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.wallsoft.in/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "Very small (founded 2012); a cold email reaches the founders directly. Options market-making focus suits his Black-Scholes vs Heston work.",
+  "do_not_email": false
+ },
+ {
+  "name": "Qnance Research Capital LLP",
+  "website": "https://www.qnance.com",
+  "city": "Bengaluru",
+  "size": "boutique (11-50)",
+  "what_they_do": "Quant trading firm building ultra-low-latency systems and proprietary liquidity-providing strategies across asset classes globally.",
+  "personalization_hook": "Builds research frameworks and back-testing tools over large datasets alongside ultra-low-latency systems to provide liquidity across asset classes.",
+  "hook_source_url": "https://www.qnance.com/",
+  "contacts": [],
+  "other_contact": "https://qnance.in/careers",
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "No email published; careers page blocks automated fetch.",
+  "do_not_email": false
+ },
+ {
+  "name": "Quantsapp Pvt Ltd",
+  "website": "https://www.quantsapp.com",
+  "city": "Mumbai (Andheri East)",
+  "size": "mid-size startup",
+  "what_they_do": "Options analytics and trading platform for NSE (option chain, OI, strategy builder/optimiser) with order routing through 20+ brokers.",
+  "personalization_hook": "Its options platform centres on option-chain analytics, OI and a strategy optimiser for NSE options, the same market as his NIFTY Heston project.",
+  "hook_source_url": "https://www.quantsapp.com/",
+  "contacts": [
+   {
+    "email": "support@quantsapp.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.quantsapp.com/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Not named on site"
+  ],
+  "notes": "Fintech rather than a trading firm; only a support inbox. Ask to forward to the quant/analytics team.",
+  "do_not_email": false
+ },
+ {
+  "name": "Greeksoft Technologies",
+  "website": "https://www.greeksoft.co.in",
+  "city": "Mumbai (Borivali East); also Pune office",
+  "size": "mid-size",
+  "what_they_do": "Low-latency algorithmic execution and options risk-management software vendor for Indian derivatives (co-location, FIX, automated trading systems).",
+  "personalization_hook": "Builds low-latency algo execution and derivatives risk-management tools, and was among the first Indian vendors offering NSE co-location-as-a-service.",
+  "hook_source_url": "https://www.greeksoft.co.in/",
+  "contacts": [
+   {
+    "email": "hr@greeksoft.co.in",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.greeksoft.co.in/Careers.html",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.greeksoft.co.in/Careers.html",
+  "founders_or_key_people": [
+   "Not named"
+  ],
+  "notes": "Trading-tech vendor, not a fund; lower fit. Careers page asks for resumes at hr@. Has a Pune office but main office is Mumbai.",
+  "do_not_email": false
+ },
+ {
+  "name": "Wright Research (Wright Research & Capital)",
+  "website": "https://www.wrightresearch.in",
+  "city": "Mumbai (BKC corporate office); registered Lucknow",
+  "size": "boutique",
+  "what_they_do": "Quant PMS and research-analyst firm building factor-driven, data-driven portfolios (smallcases and PMS) run by a quantitative research team.",
+  "personalization_hook": "Portfolios are built by a quantitative research team led by founder Sonam Srivastava (IIT Kanpur, WorldQuant University MSFE, ex Forefront/Edelweiss/Qplum) using factor-driven, data-driven methods.",
+  "hook_source_url": "https://help.wrightresearch.in/support/solutions/articles/82000333228-who-is-creating-these-portfolios-",
+  "contacts": [
+   {
+    "email": "info@wrightresearch.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://wrightresearch.in/disclosure",
+    "confidence": "high"
+   },
+   {
+    "email": "hello@wrightresearch.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://wrightresearch.in/disclosure",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.wrightresearch.in/team",
+  "founders_or_key_people": [
+   "Sonam Srivastava (Founder & CEO)",
+   "Siddharth Singh Bhaisora (Principal Officer)"
+  ],
+  "notes": "Strong fit (quant allocation, factor models; founder writes publicly on regime/ML ideas). Person-level emails on the disclosure page belong to principal/compliance officers; don't use those for a job ask. Address info@ to Sonam Srivastava.",
+  "do_not_email": false
+ },
+ {
+  "name": "True Beacon",
+  "website": "https://truebeacon.com",
+  "city": "Bengaluru (MG Road)",
+  "size": "mid-size boutique",
+  "what_they_do": "Investment firm (co-founded by Nikhil Kamath) running public-market portfolios for domestic and offshore investors; historically known for hedged, derivatives-overlay AIF strategies.",
+  "personalization_hook": "Organises hiring around an Investment Research and Engineering team, and its co-founder is Nikhil Kamath.",
+  "hook_source_url": "https://truebeacon.com/careers",
+  "contacts": [
+   {
+    "email": "info@truebeacon.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://truebeacon.com/careers",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://truebeacon.com/careers",
+  "founders_or_key_people": [
+   "Nikhil Kamath (Co-founder)"
+  ],
+  "notes": "Careers page: 'We do not have any open positions right now' and lists info@ under 'Get in touch'. Hedged-strategy description comes from general knowledge, so don't use it in the email unless you confirm it.",
+  "do_not_email": false
+ },
+ {
+  "name": "AccuraCap (Accuracap Consultancy Services)",
+  "website": "https://www.accuracap.com",
+  "city": "Noida (Delhi NCR)",
+  "size": "boutique",
+  "what_they_do": "PMS and Category III AIF running long-only equity portfolios on proprietary quantitative, AI-driven, rules-based algorithms; started as a family office in 2011.",
+  "personalization_hook": "Runs long-only equity portfolios on proprietary quantitative, AI-driven algorithms with rules-based, systematic decisions.",
+  "hook_source_url": "https://www.accuracap.com/",
+  "contacts": [],
+  "other_contact": "Phone +91 9821653556; https://www.accuracap.com/contact-us",
+  "founders_or_key_people": [
+   "Dr. Naresh Chand Gupta (Founder)",
+   "Shivam Gupta (Senior Research Analyst)"
+  ],
+  "notes": "No email on readable pages; contact page did not load. Small team of 5, good boutique fit.",
+  "do_not_email": false
+ },
+ {
+  "name": "Greenland Investment Management LLP",
+  "website": "https://greenlandim.com",
+  "city": "Mumbai (plus London)",
+  "size": "mid-size (USD 1bn+ AUM)",
+  "what_they_do": "Systematic commodity and currency arbitrage hedge fund (mainly geographic arbitrage across 40+ markets) using proprietary datasets, multi-factor models and low-latency trading.",
+  "personalization_hook": "Runs systematic cross-market arbitrage in commodities and currencies across 40+ markets; founder Anant Jatia previously ran stat-arb at AQR and co-founded Forefront, India's first onshore hedge fund.",
+  "hook_source_url": "https://www.toptradersunplugged.com/guests/anant-jatia",
+  "contacts": [],
+  "other_contact": "https://job-boards.greenhouse.io/greenlandinvestmentmanagement (has a Quant Research Intern posting, Mumbai)",
+  "founders_or_key_people": [
+   "Anant Jatia (Founder & CIO)"
+  ],
+  "notes": "Has posted a 'Quant Intern' (Quantitative Research Intern) role in Mumbai on Greenhouse; apply there. Site email is obfuscated.",
+  "do_not_email": false
+ },
+ {
+  "name": "Delta Exchange (Excelium Technologies Pvt Ltd)",
+  "website": "https://www.delta.exchange",
+  "city": "Bengaluru (remote-friendly)",
+  "size": "mid-size (51-200)",
+  "what_they_do": "Crypto derivatives exchange offering INR-margined futures and options on BTC/ETH, with an in-house quant team pricing perpetuals and options.",
+  "personalization_hook": "Its remote Quantitative Researcher (Pricing Model) role covers calibrating volatility surfaces and skew/smile dynamics for options, close to his Heston calibration project.",
+  "hook_source_url": "https://www.remoterocketship.com/company/delta-exchange-exchange/jobs/quantitative-researcher-pricing-model-india-remote/",
+  "contacts": [],
+  "other_contact": "https://careers.delta.exchange (Workable: https://apply.workable.com/deltaexchange/)",
+  "founders_or_key_people": [
+   "Not named on fetched pages"
+  ],
+  "notes": "Remote-first quant roles make an online December stint plausible. No email published; apply via Workable or reach the team via LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "Abakkus Asset Manager",
+  "website": "https://www.abakkusinvest.com",
+  "city": "Mumbai (Santacruz East)",
+  "size": "mid-size",
+  "what_they_do": "PMS/AIF/PE manager with 11 products; fundamental, not systematic, as far as the site shows.",
+  "personalization_hook": "Runs 11 products across PMS, AIF, PE and RIA from Mumbai (site does not describe a quant process).",
+  "hook_source_url": "https://www.abakkusinvest.com/",
+  "contacts": [
+   {
+    "email": "info@abakkusinvest.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.abakkusinvest.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": null,
+  "founders_or_key_people": [
+   "Sunil Singhania (founder; widely known, not named on fetched page)"
+  ],
+  "notes": "VERIFIED NOT QUANT: no systematic/quant strategy on site. Low fit; include only if widening to fundamental funds.",
+  "do_not_email": false
+ },
+ {
+  "name": "Alpha Alternatives Fund Advisors LLP",
+  "website": "https://alt-alpha.com",
+  "city": "Mumbai (Dadar West)",
+  "size": "mid-size",
+  "what_they_do": "Multi-asset hedge-fund-style alternatives platform (est. 2013): commodities, structured credit, long-short equity, options trading, and a systematic equity business (Elysium).",
+  "personalization_hook": "Its systematic equity business, Elysium, is driven by partner Vineet Sachdeva, and it has hired quant analysts to backtest and walk-forward test trading-desk strategies.",
+  "hook_source_url": "https://pmsbazaar.com/AMC/Alpha-Alternatives-Fund-Advisors-LLP/AIF",
+  "contacts": [],
+  "other_contact": "https://alt-alpha.com/careers/ (application form); investor-relations email aainvestorrelations@alt-alpha.com is published but is for clients, not careers",
+  "founders_or_key_people": [
+   "Vineet Sachdeva (Entrepreneur Partner, Elysium systematic equity)",
+   "Prashant Mohanraj (Liquid Alternatives, Equities Trading)",
+   "Mudit Singhania (Commodities)"
+  ],
+  "notes": "Walk-forward testing in the analyst JD matches his HMM project closely. Use the careers form; the IR email is the only one published and is not for jobs.",
+  "do_not_email": false
+ }
+]
