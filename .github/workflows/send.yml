@@ -30,8 +30,8 @@ jobs:
         env:
           PUNE_SENDING_APPROVED: ${{ vars.PUNE_SENDING_APPROVED }}
           SENDER_NAME: Pranav Jaju
-          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
-          SMTP_SERVER: ${{ vars.SMTP_SERVER }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL || 'pranavjaju@iitb.ac.in' }}
+          SMTP_SERVER: ${{ vars.SMTP_SERVER || 'smtp-auth.iitb.ac.in' }}
           SMTP_PORT: ${{ vars.SMTP_PORT || '587' }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SENDER_APP_TOKEN: ${{ secrets.SENDER_APP_TOKEN }}
