@@ -1,0 +1,1036 @@
+[
+ {
+  "name": "Peppermint Robotics",
+  "website": "https://www.peppermintrobotics.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Registered office at Pashan, Pune 411021 (site footer). Its hiring post lists SLAM perception and robotics roles in Pune.",
+  "pune_evidence_url": "https://www.peppermintrobotics.com/",
+  "what_they_do": "Builds autonomous floor-cleaning and material-handling robots for commercial and industrial sites.",
+  "personalization_hook": "Hiring a Robotics Perception Engineer for SLAM in Pune, which lines up directly with his driverless-team SLAM/EKF work.",
+  "hook_source_url": "https://discourse.openrobotics.org/t/multiple-openings-peppermint-robotics-india-and-usa/53263",
+  "contacts": [
+   {
+    "email": "harshal@peppermintrobotics.com",
+    "kind": "person",
+    "person_name": "Harshal Deshpande",
+    "source_url": "https://discourse.openrobotics.org/t/multiple-openings-peppermint-robotics-india-and-usa/53263",
+    "confidence": "medium"
+   },
+   {
+    "email": "info@peppermintrobotics.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.peppermintrobotics.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.peppermintrobotics.com/careers",
+  "founders_or_key_people": [
+   "Harshal Deshpande (posted the hiring call; company title not given in the post)"
+  ],
+  "notes": "The email comes from the company's own hiring post on the ROS community forum (posted by its own staff), so it's close to high. Best robotics/SLAM fit on the list. No intern roles were listed, so pitch a short SLAM/perception project.",
+  "do_not_email": false
+ },
+ {
+  "name": "FlytBase",
+  "website": "https://flytbase.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Careers page says roles are office-based in Pune",
+  "pune_evidence_url": "https://careers.flytbase.com/jobs",
+  "what_they_do": "Software platform for running autonomous drone and docking-station fleets (drone-in-a-box) at industrial sites.",
+  "personalization_hook": "Hiring Robotics Engineer and UAV Systems Engineer roles in Pune for autonomous drone operations.",
+  "hook_source_url": "https://careers.flytbase.com/jobs",
+  "contacts": [
+   {
+    "email": "careers@flytbase.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://careers.flytbase.com/jobs",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://careers.flytbase.com/",
+  "founders_or_key_people": [
+   "Nitin Gupta (founder & CEO)"
+  ],
+  "notes": "The careers page invites 'custom roles' through careers@. Interns are hired, though the listed intern roles are non-engineering. Founder name is from general knowledge, so check it on LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "Unbox Robotics",
+  "website": "https://unboxrobotics.com",
+  "segment": "core",
+  "pune_evidence": "HQ at MIDC Bhosari, Pimpri-Chinchwad, plus a factory at Shivane, Pune",
+  "pune_evidence_url": "https://unboxrobotics.com/careers",
+  "what_they_do": "Mobile-robot parcel sortation systems (UnboxSort) for warehouses.",
+  "personalization_hook": "Builds a compact mobile-robot sortation system running in live warehouses, designed and built in Pune; runs intern postings on its Keka portal.",
+  "hook_source_url": "https://unboxrobotics.keka.com/careers/jobdetails/74260",
+  "contacts": [
+   {
+    "email": "sales@unboxrobotics.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://unboxrobotics.com/careers",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://unboxrobotics.keka.com/careers (an 'Internship Opportunity at Unbox' posting exists; the site's email is Cloudflare-obfuscated)",
+  "founders_or_key_people": [
+   "Pramod Ghadge (co-founder & CEO)",
+   "Shahid Memon (co-founder & CTO)"
+  ],
+  "notes": "Spans robotics and core: mobile robots, embedded, controls. The only email on the careers page (Cloudflare-obfuscated, decoded locally) is sales@, which isn't an application address, so apply on Keka (an 'Embedded Firmware Intern' posting also appeared on Prosple). Founder names are from general knowledge.",
+  "do_not_email": false
+ },
+ {
+  "name": "Ecozen Solutions",
+  "website": "https://www.ecozensolutions.com",
+  "segment": "core",
+  "pune_evidence": "Registered office at Amar Tech Park, Balewadi, Pune, with plants at Tathawade and Marunji, Pune",
+  "pune_evidence_url": "https://www.ecozensolutions.com/contact-us",
+  "what_they_do": "Solar pump motor controllers, solar cold storage and thermal energy storage with IoT/AI monitoring.",
+  "personalization_hook": "Designs its own motor controllers and solar-powered cold storage in Pune for farmers, which is power electronics plus IoT.",
+  "hook_source_url": "https://www.ecozensolutions.com/contact-us",
+  "contacts": [
+   {
+    "email": "careers@ecozensolutions.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.ecozensolutions.com/contact-us",
+    "confidence": "high"
+   },
+   {
+    "email": "info@ecozensolutions.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.ecozensolutions.com/contact-us",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.ecozensolutions.com/careers",
+  "founders_or_key_people": [
+   "Devendra Gupta (co-founder & CEO)",
+   "Prateek Singhal",
+   "Vivek Pandey (co-founders)"
+  ],
+  "notes": "IIT Kharagpur founders. Good power-electronics and embedded fit.",
+  "do_not_email": false
+ },
+ {
+  "name": "Intangles Lab",
+  "website": "https://www.intangles.ai",
+  "segment": "ai_ml",
+  "pune_evidence": "Headquartered in Pune (Baner) per press. The site only shows an India region selector.",
+  "pune_evidence_url": "https://www.intangles.ai/contact-us/",
+  "what_they_do": "AI-based predictive vehicle health and fleet telematics using a 'digital twin' of the engine.",
+  "personalization_hook": "Uses physics-based analytics plus ML on engine sensor data for predictive maintenance, which is estimation and signals applied to vehicles.",
+  "hook_source_url": "https://www.intangles.ai/contact-us/",
+  "contacts": [
+   {
+    "email": "connect@intangles.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.intangles.ai/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.intangles.ai/careers/",
+  "founders_or_key_people": [
+   "Anup Patil (co-founder & CEO)",
+   "Mayur Takalikar (co-founder)"
+  ],
+  "notes": "connect@ is a general enquiry address, so a careers request may get routed or ignored. Pune HQ and founders are from general knowledge; confirm on LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "Haber (Elixa Technologies)",
+  "website": "https://haberwater.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Office at C-1001 Amar Business Zone, Baner, Pune",
+  "pune_evidence_url": "https://haberwater.com/contact-us/",
+  "what_they_do": "AI and process-control software for autonomous operation of industrial plants (water treatment, pulp & paper).",
+  "personalization_hook": "Opened an AI-driven green-chemistry R&D lab in Pune with a scaled-down production line, and builds autonomous-operations AI for process plants.",
+  "hook_source_url": "https://themachinemaker.com/news/haber-launches-advanced-green-chemistry-rd-lab-in-pune-driving-innovation-in-sustainable-manufacturing/",
+  "contacts": [],
+  "other_contact": "https://haberwater.com/join-us",
+  "founders_or_key_people": [
+   "Vipin Raghavan (CEO & co-founder)"
+  ],
+  "notes": "No email published. Apply via the join-us page.",
+  "do_not_email": false
+ },
+ {
+  "name": "Sagar Defence Engineering",
+  "website": "https://www.sagardefence.com",
+  "segment": "core",
+  "pune_evidence": "Address PAP-V-13, Chakan Phase II MIDC, Pune",
+  "pune_evidence_url": "https://www.sagardefence.com/contact",
+  "what_they_do": "Builds unmanned surface vessels, UAVs and autonomous defence systems.",
+  "personalization_hook": "Builds autonomous unmanned boats and UAVs in Chakan, and its college placement drives recruit interns as well as graduate engineer trainees.",
+  "hook_source_url": "https://placements.ptu.ac.in/public/uploads/announcements/1787044539_937___Sagar_Defence_Engineering___Joint_Campus_Placement_Drive_.pdf",
+  "contacts": [
+   {
+    "email": "info@sagardefence.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.sagardefence.com/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.sagardefence.com/careers/",
+  "founders_or_key_people": [
+   "Nikunj Parashar (founder & CEO; general knowledge, verify)"
+  ],
+  "notes": "Does take interns (per the campus-drive notice). Defence work may require Indian citizenship, which is fine for him.",
+  "do_not_email": false
+ },
+ {
+  "name": "Noccarc Robotics",
+  "website": "https://www.noccarc.com",
+  "segment": "core",
+  "pune_evidence": "Address T-142 MIDC Bhosari, Pune",
+  "pune_evidence_url": "https://www.noccarc.com/contact",
+  "what_they_do": "Designs and makes ICU ventilators, patient monitors and hospital connectivity devices.",
+  "personalization_hook": "IIT Kanpur-founded Pune medtech hardware firm that designs ICU ventilators and monitors in-house (embedded control + sensing).",
+  "hook_source_url": "https://www.noccarc.com/contact",
+  "contacts": [
+   {
+    "email": "info@noccarc.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.noccarc.com/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.noccarc.com/careers",
+  "founders_or_key_people": [
+   "Harshit Rathore",
+   "Nikhil Kurele (co-founders; general knowledge)"
+  ],
+  "notes": "Embedded and control hardware.",
+  "do_not_email": false
+ },
+ {
+  "name": "Altizon Systems",
+  "website": "https://altizon.com",
+  "segment": "ai_ml",
+  "pune_evidence": "India office: Office 1004, Gokhale Business Bay, Pune 411038",
+  "pune_evidence_url": "https://www.altizon.com/contact-us",
+  "what_they_do": "Industrial IoT / manufacturing-intelligence platform (Altizon DFX) turning shop-floor machine data into analytics.",
+  "personalization_hook": "Its DFX platform turns shop-floor sensor data into real-time quality and productivity intelligence, which is IIoT plus analytics.",
+  "hook_source_url": "https://www.altizon.com/contact-us",
+  "contacts": [
+   {
+    "email": "sales@altizon.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.altizon.com/contact-us",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://altizon.com/careers",
+  "founders_or_key_people": [
+   "Vinay Nathan (co-founder & CEO; general knowledge)"
+  ],
+  "notes": "The only email is sales@, so the careers page is better.",
+  "do_not_email": false
+ },
+ {
+  "name": "Aeron Systems",
+  "website": "https://www.aeronsystems.com",
+  "segment": "core",
+  "pune_evidence": "Head office and design centre at Laxman Nagar, Balewadi, Pune; factory in Talegaon, Pune",
+  "pune_evidence_url": "https://www.aeronsystems.com/",
+  "what_they_do": "Designs inertial navigation systems, AHRS, IMUs and GNSS receivers for defence, aerospace and robotics, plus weather stations and data loggers for solar/wind plants.",
+  "personalization_hook": "Builds INS/AHRS/IMU units in Pune; his IMU-centric MHE and EKF localisation work on the driverless car is the same sensor-fusion problem.",
+  "hook_source_url": "https://www.aeronsystems.com/",
+  "contacts": [
+   {
+    "email": "hr@aeronsystems.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.aeronsystems.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.aeronsystems.com/careers/",
+  "founders_or_key_people": [
+   "Ashvani K. Shukla (Director / CEO)"
+  ],
+  "notes": "Strongest estimation/navigation fit among core firms. The site lists hr@ for 'Jobs and applications'.",
+  "do_not_email": false
+ },
+ {
+  "name": "Accolade Electronics",
+  "website": "https://www.accoladeelectronics.com",
+  "segment": "core",
+  "pune_evidence": "Head office and R&D centre at Shivane, Pune; manufacturing plant near Shivare Phata, Bhor, Pune",
+  "pune_evidence_url": "https://www.accoladeelectronics.com/contact-us",
+  "what_they_do": "Automotive electronics design and manufacturing partner to global OEMs (since 2002), with in-house hardware and firmware teams.",
+  "personalization_hook": "A Pune automotive-electronics design house founded in 2002 whose careers page invites CVs for its hardware and firmware teams.",
+  "hook_source_url": "https://www.accoladeelectronics.com/careers/",
+  "contacts": [
+   {
+    "email": "hr@accoladeelectronics.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://www.accoladeelectronics.com/careers/",
+    "confidence": "high"
+   },
+   {
+    "email": "info@accoladeelectronics.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.accoladeelectronics.com/contact-us",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.accoladeelectronics.com/careers/",
+  "founders_or_key_people": [
+   "not named on site"
+  ],
+  "notes": "Careers page explicitly invites unsolicited CVs.",
+  "do_not_email": false
+ },
+ {
+  "name": "Bit Mapper Integration Technologies",
+  "website": "https://bitmapper.com",
+  "segment": "core",
+  "pune_evidence": "Job openings all listed in Pune; office in Pimpri-Chinchwad",
+  "pune_evidence_url": "https://bitmapper.com/job-openings/",
+  "what_they_do": "Electro-optic cameras, defence electronics and embedded/FPGA design services (part of The Phoenix Group).",
+  "personalization_hook": "Currently hiring an FPGA Design Engineer (HDL design/coding) in Pune, which matches his VHDL-on-FPGA lab work.",
+  "hook_source_url": "https://bitmapper.com/job-openings/",
+  "contacts": [],
+  "other_contact": "https://bitmapper.com/job-openings/ and https://www.bitmapper.com/contact-us (phone/forms only)",
+  "founders_or_key_people": [
+   "not named on pages fetched"
+  ],
+  "notes": "No email published. Best FPGA/VHDL fit in Pune. Call, or apply through the job page.",
+  "do_not_email": false
+ },
+ {
+  "name": "E42.ai (Light Information Systems)",
+  "website": "https://e42.ai",
+  "segment": "ai_ml",
+  "pune_evidence": "Office at Marisoft 1, Marigold Complex, Kalyani Nagar, Pune 411014",
+  "pune_evidence_url": "https://e42.ai/contact-us/",
+  "what_they_do": "No-code platform for building enterprise 'AI co-workers' (LLM agents for process automation, document processing).",
+  "personalization_hook": "Pune-built platform for enterprise 'AI co-workers', i.e. LLM agents that automate business processes.",
+  "hook_source_url": "https://e42.ai/contact-us/",
+  "contacts": [
+   {
+    "email": "interact@e42.ai",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://e42.ai/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://e42.ai/careers/",
+  "founders_or_key_people": [
+   "Sanjeev Menon (co-founder; general knowledge)",
+   "Animesh Samuel (co-founder; general knowledge)"
+  ],
+  "notes": "interact@ is a general enquiry address. Better to use the careers page.",
+  "do_not_email": false
+ },
+ {
+  "name": "DroneAcharya Aerial Innovations",
+  "website": "https://droneacharya.com",
+  "segment": "core",
+  "pune_evidence": "Headquarters at Galore Tech, Bavdhan, Pune 411021",
+  "pune_evidence_url": "https://droneacharya.com/contact-us/",
+  "what_they_do": "Listed drone company: agri-spraying, FPV and defence drones, survey/GIS data services, and DGCA drone-pilot training.",
+  "personalization_hook": "Builds full-stack defence and industrial drones (FPV, mapping, spraying) from its Bavdhan HQ, and runs internships under international collaborations.",
+  "hook_source_url": "https://droneacharya.com/contact-us/",
+  "contacts": [
+   {
+    "email": "talent@droneacharya.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://droneacharya.com/contact-us/",
+    "confidence": "high"
+   },
+   {
+    "email": "info@droneacharya.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://droneacharya.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://droneacharya.com/ (careers page 'Life at DA')",
+  "founders_or_key_people": [
+   "Prateek Srivastava (founder & MD; general knowledge, verify)"
+  ],
+  "notes": "Listed on BSE SME. It is partly a training business, so ask specifically for drone-tech/R&D (flight control, mapping) work.",
+  "do_not_email": false
+ },
+ {
+  "name": "Revogreen Technologies",
+  "website": "https://revogreen.in",
+  "segment": "core",
+  "pune_evidence": "Address at Shivparvati Residency Road, Narhe, Pune; site names Pune as HQ",
+  "pune_evidence_url": "https://revogreen.in/contact",
+  "what_they_do": "Custom Li-ion battery packs, smart batteries and BMS for drones, defence and robotics.",
+  "personalization_hook": "Designs smart batteries and its own BMS with on-board data monitoring for drones and robots, which is embedded plus power electronics.",
+  "hook_source_url": "https://revogreen.in/contact",
+  "contacts": [
+   {
+    "email": "info@revogreen.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://revogreen.in/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://revogreen.zohorecruit.in/jobs/Careers",
+  "founders_or_key_people": [
+   "not named on site"
+  ],
+  "notes": "Small firm, so a founder may read info@.",
+  "do_not_email": false
+ },
+ {
+  "name": "DeeDee Labs",
+  "website": "https://deedeelabs.org",
+  "segment": "core",
+  "pune_evidence": "Office 509, Gera's Imperium Rise, Hinjewadi Phase II, Pune",
+  "pune_evidence_url": "https://deedeelabs.org/",
+  "what_they_do": "Myoelectric bionic prosthetic hands (ProGrasp) using multi-site EMG sensing and pattern-recognition grip control.",
+  "personalization_hook": "Its ProGrasp hand reads EMG from several muscle sites and uses pattern recognition to infer grip, which combines signal processing, ML and embedded hardware.",
+  "hook_source_url": "https://deedeelabs.org/",
+  "contacts": [],
+  "other_contact": "WhatsApp link on https://deedeelabs.org/ (no email published)",
+  "founders_or_key_people": [
+   "not named on site"
+  ],
+  "notes": "Spans signal processing, ML and embedded. Small team. Find the founders on LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "Griffyn Robotech (The Phoenix Group)",
+  "website": "http://www.griffyn.io",
+  "segment": "core",
+  "pune_evidence": "Unit 4, Shewale Center-B, MIDC Pimpri Colony, Pimpri-Chinchwad 411019 (Pune metro)",
+  "pune_evidence_url": "http://www.griffyn.io/",
+  "what_they_do": "AI vision-based grading/testing robots for phones (DEEPSIGHT), IIoT edge gateways and Zynq SOM boards.",
+  "personalization_hook": "Builds DEEPSIGHT cosmetic-grading robots with AI vision and its own Zynq SOM carrier boards, so FPGA, vision and robotics all in one place.",
+  "hook_source_url": "http://www.griffyn.io/",
+  "contacts": [],
+  "other_contact": "Careers link on http://www.griffyn.io/",
+  "founders_or_key_people": [
+   "not named on site"
+  ],
+  "notes": "Sister company of Bit Mapper. A shared application could reach both.",
+  "do_not_email": false
+ },
+ {
+  "name": "Vector Robotics (VCTR Labs)",
+  "website": "https://www.getvectorbots.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Site location metadata says Pune, Maharashtra; Perception & CV internship posted for Pune",
+  "pune_evidence_url": "https://www.foundit.in/job/perception-computer-vision-deep-learning-focus-internship-vector-robotics-pune-50373223",
+  "what_they_do": "Builds AGVs, AMRs and 'Made in India' humanoid robots for warehouses and factories ('Physical AI').",
+  "personalization_hook": "Its paid perception internship covers visual odometry, depth estimation and obstacle detection on onboard robot hardware (ROS2/Isaac Sim a bonus), which is close to his SLAM work.",
+  "hook_source_url": "https://www.foundit.in/job/perception-computer-vision-deep-learning-focus-internship-vector-robotics-pune-50373223",
+  "contacts": [
+   {
+    "email": "swaraj@getvectorbots.com",
+    "kind": "person",
+    "person_name": "Swaraj (surname not given)",
+    "source_url": "https://www.foundit.in/job/perception-computer-vision-deep-learning-focus-internship-vector-robotics-pune-50373223",
+    "confidence": "medium"
+   }
+  ],
+  "other_contact": "https://www.getvectorbots.com",
+  "founders_or_key_people": [
+   "not named on site"
+  ],
+  "notes": "The job post writes the address as 'swaraj_at_getvectorbots.com' ('replace _at_ with @'). It asks applicants to state the role they want, why they want to join, their 3-year goals, and why they should be picked. Strong robotics/CV fit.",
+  "do_not_email": false
+ },
+ {
+  "name": "Pivotchain Solutions",
+  "website": "https://www.pivotchain.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Site gives location 'Pune, India'; all open roles are in Pune",
+  "pune_evidence_url": "https://www.pivotchain.com/careers/",
+  "what_they_do": "Raven AI (on-prem deep-learning video analytics: detection, tracking, re-ID) and Raven Fusion (multi-source intelligence fusion) for defence, airports, public safety and banking.",
+  "personalization_hook": "Builds detection, tracking and re-identification models for live video plus a confidence-scored 'intelligence fusion' graph, which is estimation over noisy multi-source data.",
+  "hook_source_url": "https://www.pivotchain.com/careers/",
+  "contacts": [
+   {
+    "email": "contact@pivotchain.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.pivotchain.com/careers/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.pivotchain.com/careers/",
+  "founders_or_key_people": [
+   "not named on pages fetched"
+  ],
+  "notes": "contact@ is Cloudflare-obfuscated on the official careers page; I decoded the data-cfemail hex locally to confirm it. The page offers it for 'Don't see your role?', and all role 'Apply' links are mailto links to it. Strong CV/tracking fit.",
+  "do_not_email": false
+ },
+ {
+  "name": "Infinite Uptime",
+  "website": "https://www.infinite-uptime.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Asia Pacific office at 5B Vasundhara Space, Aundh, Pune 411007",
+  "pune_evidence_url": "https://www.infinite-uptime.com/contact-us/",
+  "what_they_do": "Industrial vibration/IoT sensors plus 'PlantOS' prescriptive AI for machine-health monitoring and predictive maintenance.",
+  "personalization_hook": "Combines its own vibration sensors with prescriptive AI (PlantOS) to predict machine failures, which is signal processing plus ML on industrial data.",
+  "hook_source_url": "https://echai.ventures/grid/pune/startups/deeptech",
+  "contacts": [],
+  "other_contact": "https://infiniteuptime.keka.com/careers",
+  "founders_or_key_people": [
+   "Raunak Bhinge (founder & CEO; general knowledge, verify)"
+  ],
+  "notes": "No email published. Apply through Keka. Covers both signal processing and ML.",
+  "do_not_email": false
+ },
+ {
+  "name": "DeepTek.ai",
+  "website": "https://www.deeptek.ai",
+  "segment": "ai_ml",
+  "pune_evidence": "Site news calls it 'a Pune-based healthtech startup'; Pune office role listed",
+  "pune_evidence_url": "https://www.deeptek.ai/careers.php",
+  "what_they_do": "AI for radiology: chest X-ray/TB screening AI, Augmento deployment platform with cloud PACS, AI-assisted reporting; 500+ hospitals.",
+  "personalization_hook": "Deploys chest X-ray AI for TB screening in government public-health programmes and monitors deployed models after rollout.",
+  "hook_source_url": "https://www.deeptek.ai/",
+  "contacts": [],
+  "other_contact": "https://www.deeptek.ai/careers.php",
+  "founders_or_key_people": [
+   "Ajit Patankar (co-founder & CEO; general knowledge, verify)",
+   "Amit Kharat (co-founder; radiologist; general knowledge, verify)"
+  ],
+  "notes": "No email on site. A Senior Data Scientist role is open; ask for a short applied-ML stint.",
+  "do_not_email": false
+ },
+ {
+  "name": "TCS Research (Pune; formerly TRDDC)",
+  "website": "https://www.tcs.com/what-we-do/research",
+  "segment": "ai_ml",
+  "pune_evidence": "TCS Research internship listing names Pune among locations; TRDDC is TCS's historic Pune R&D centre",
+  "pune_evidence_url": "https://in.prosple.com/graduate-employers/tata-consultancy-services-india/jobs-internships/research-internships",
+  "what_they_do": "Corporate research labs (ML, optimisation, robotics, cyber-physical systems).",
+  "personalization_hook": "Runs a formal R&D internship with 6-8 week short stints at locations including Pune.",
+  "hook_source_url": "https://in.prosple.com/graduate-employers/tata-consultancy-services-india/jobs-internships/research-internships",
+  "contacts": [],
+  "other_contact": "TCS careers portal (Research Internship / Industrial R&D Internship); see https://in.prosple.com/graduate-employers/tata-consultancy-services-india/jobs-internships/research-internships",
+  "founders_or_key_people": [],
+  "notes": "Formal programme; the 2025 listing has expired. Eligibility text names final-year BE/B.Tech, so a 2nd-year may not qualify. Best route is to email a Pune TCS Research scientist found via Google Scholar, though no email was found here.",
+  "do_not_email": false
+ },
+ {
+  "name": "AdElement",
+  "website": "https://www.adelement.com",
+  "segment": "ai_ml",
+  "pune_evidence": "India office at Shree Someshwar, Someshwarwadi, Pune 411008",
+  "pune_evidence_url": "https://www.adelement.com/contact-us",
+  "what_they_do": "ML-driven programmatic advertising DSP for mobile/CTV (real-time bidding, budget allocation, fraud scoring).",
+  "personalization_hook": "Uses ML for real-time bid pricing and budget allocation, which is sequential decision-making under uncertainty.",
+  "hook_source_url": "https://www.adelement.com/contact-us",
+  "contacts": [],
+  "other_contact": "https://www.adelement.com (careers link)",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "No email published. Lower priority.",
+  "do_not_email": false
+ },
+ {
+  "name": "Cognologix Technologies",
+  "website": "https://www.cognologix.com",
+  "segment": "ai_ml",
+  "pune_evidence": "India office at 41 Shivaji Housing Society, Senapati Bapat Rd, Pune 411016",
+  "pune_evidence_url": "https://www.cognologix.com/contact-us/",
+  "what_they_do": "Outsourced software product development with specialities in search/NLP, AI/ML and cloud-native DevOps.",
+  "personalization_hook": "A Pune product-engineering shop with dedicated search/NLP and AI/ML practices that takes resumes even when no opening matches.",
+  "hook_source_url": "https://www.cognologix.com/contact-us/",
+  "contacts": [
+   {
+    "email": "talent@cognologix.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.cognologix.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://careers.cognologix.com/jobs/Careers",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "Services firm. Its site explicitly invites resumes when no listed opening fits.",
+  "do_not_email": false
+ },
+ {
+  "name": "Pratiti Technologies",
+  "website": "https://pratititech.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Headquarters at 704 Vascon Eco Tower, Baner-Pashan Link Road, Pune 411045",
+  "pune_evidence_url": "https://pratititech.com/contact-us/",
+  "what_they_do": "Engineering services in industrial IoT, digital twins and software product development for manufacturing and energy clients.",
+  "personalization_hook": "Builds digital twins and IIoT software for manufacturing and energy companies from its Baner HQ.",
+  "hook_source_url": "https://pratititech.com/contact-us/",
+  "contacts": [
+   {
+    "email": "contact@pratititech.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://pratititech.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "Contact form 'Job related enquiry' with resume upload at https://pratititech.com/contact-us/",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "Services firm, lower priority. The contact form has a job-enquiry option, which may be better than contact@.",
+  "do_not_email": false
+ },
+ {
+  "name": "Sakar Robotics",
+  "website": "https://www.sakarrobotics.com",
+  "segment": "ai_ml",
+  "pune_evidence": "YourStory company profile lists Pune, Maharashtra",
+  "pune_evidence_url": "https://yourstory.com/companies/sakar-robotics",
+  "what_they_do": "General-purpose robots that 'perceive, decide, and act': a construction wall-finishing mobile manipulator and LISA, a linen inspection/sorting robot.",
+  "personalization_hook": "Building mobile manipulators for construction wall-finishing plus an inspection-and-sorting robot (LISA), all perception and planning on real sites.",
+  "hook_source_url": "https://www.sakarrobotics.com/",
+  "contacts": [],
+  "other_contact": "https://www.sakarrobotics.com (no email; reach founders via LinkedIn)",
+  "founders_or_key_people": [
+   "Karan Patil (founder & CEO)",
+   "Dhruv Patil (CTO)"
+  ],
+  "notes": "Small founder-led robotics startup. No published email.",
+  "do_not_email": false
+ },
+ {
+  "name": "Seagate Technology (Pune)",
+  "website": "https://www.seagate.com",
+  "segment": "core",
+  "pune_evidence": "VLSI listing names Pune openings incl. 'VLSI engineering intern', design verification and physical design",
+  "pune_evidence_url": "https://chipedge.com/resources/top-vlsi-companies-in-pune/",
+  "what_they_do": "Data-storage company. The Pune centre does SoC/VLSI design, verification and firmware for drive controllers.",
+  "personalization_hook": "Its Pune design centre has hired VLSI engineering interns alongside design-verification and physical-design engineers.",
+  "hook_source_url": "https://chipedge.com/resources/top-vlsi-companies-in-pune/",
+  "contacts": [],
+  "other_contact": "https://jobs.seagate.com (filter: Pune, intern)",
+  "founders_or_key_people": [],
+  "notes": "Big company with a formal portal; apply there. VLSI intern postings are usually for a semester or summer, so a 6-week winter stint is unlikely.",
+  "do_not_email": false
+ },
+ {
+  "name": "SEDEMAC Mechatronics",
+  "website": "https://www.sedemac.com",
+  "segment": "core",
+  "pune_evidence": "Headquartered in Pune (Autocar Pro); IndiaMART listing gives Pune, Maharashtra",
+  "pune_evidence_url": "https://www.autocarpro.in/news/from-iit-b-lab-to-dalal-street-sedemacs-19-year-bet-on-auto-electronics-131851?amp=1",
+  "what_they_do": "Engine/powertrain control electronics: sensorless ISG ECUs for 2/3-wheelers (~35% domestic share), genset controllers, AMT/EFI ECUs, aftertreatment control modules.",
+  "personalization_hook": "Grew out of IIT Bombay student-faculty projects in 2004 (Prof. Shashikanth Suryanarayanan). Its sensorless ISG ECU estimates rotor position in software in place of a sensor, which matches his state-estimation work.",
+  "hook_source_url": "https://www.autocarpro.in/news/from-iit-b-lab-to-dalal-street-sedemacs-19-year-bet-on-auto-electronics-131851?amp=1",
+  "contacts": [],
+  "other_contact": "https://www.sedemac.com/careers (JS site; no email visible)",
+  "founders_or_key_people": [
+   "Shashikanth Suryanarayanan (Founder & MD; IIT Bombay faculty)",
+   "Amit Dixit (Founder & Joint MD)",
+   "Manish Sharma (co-founder)"
+  ],
+  "notes": "Listed on NSE in Mar 2026. The IITB link is the best route: a warm intro via Prof. Suryanarayanan's IITB department or IITB alumni at SEDEMAC is better than a cold email. No published email found.",
+  "do_not_email": false
+ },
+ {
+  "name": "eInfochips (an Arrow company) - Pune",
+  "website": "https://www.einfochips.com",
+  "segment": "core",
+  "pune_evidence": "Pune office at QUBIX SEZ, Blueridge Township, Hinjewadi Phase I, Pune 411057",
+  "pune_evidence_url": "https://www.einfochips.com/contact-us/",
+  "what_they_do": "Product engineering services: silicon/ASIC/FPGA design, embedded hardware and firmware, edge AI and device software.",
+  "personalization_hook": "Its Hinjewadi centre is part of an Arrow-owned silicon, FPGA and embedded engineering services firm.",
+  "hook_source_url": "https://www.einfochips.com/contact-us/",
+  "contacts": [
+   {
+    "email": "career@einfochips.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.einfochips.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.einfochips.com/careers/",
+  "founders_or_key_people": [],
+  "notes": "Mid/large services company. The contact page explicitly says to write to career@ for career enquiries. Ask that it reach the Pune team.",
+  "do_not_email": false
+ },
+ {
+  "name": "Softnautics (a MosChip company) - Pune",
+  "website": "https://www.softnautics.com",
+  "segment": "core",
+  "pune_evidence": "Pune office at Smartworks, Mundhwa, Pune 411036; VLSI/FPGA/embedded roles listed in Pune",
+  "pune_evidence_url": "https://www.softnautics.com/contact-us/",
+  "what_they_do": "VLSI verification, FPGA and embedded design, multimedia/DSP firmware and edge-AI engineering services.",
+  "personalization_hook": "Has Pune openings across verification, hardware design, IoT firmware and DSP firmware, covering FPGA, embedded and signal processing.",
+  "hook_source_url": "https://chipedge.com/resources/top-vlsi-companies-in-pune/",
+  "contacts": [],
+  "other_contact": "https://softnautics.com/careers/ (only business@/contact@ published, which are sales addresses)",
+  "founders_or_key_people": [],
+  "notes": "Use the careers page. business@softnautics.com is for sales, not jobs.",
+  "do_not_email": false
+ },
+ {
+  "name": "EKA Mobility (Pinnacle Mobility Solutions)",
+  "website": "https://ekamobility.com",
+  "segment": "core",
+  "pune_evidence": "Corporate office at Sai Radhe Complex, Kennedy Road, Pune 411001; group HQ at Panchshil Tech Park, Shivajinagar, Pune",
+  "pune_evidence_url": "https://ekamobility.com/",
+  "what_they_do": "Designs and builds electric buses, trucks and small commercial vehicles plus in-house EV powertrains, control modules and battery packs.",
+  "personalization_hook": "Develops its own EV powertrains, control modules and battery packs alongside complete e-buses and trucks in Pune.",
+  "hook_source_url": "https://ekamobility.com/",
+  "contacts": [],
+  "other_contact": "https://ekamobility.com/ (contact page / WhatsApp; no email shown)",
+  "founders_or_key_people": [
+   "Sudhir Mehta (Founder & Chairman, Pinnacle Industries; general knowledge, verify)"
+  ],
+  "notes": "No careers email found.",
+  "do_not_email": false
+ },
+ {
+  "name": "Electra EV",
+  "website": "https://electraev.com",
+  "segment": "core",
+  "pune_evidence": "R&D, hardware, software and EV testing facilities in Pune",
+  "pune_evidence_url": "https://electraev.com/about/",
+  "what_they_do": "Battery packs, full EV powertrains, eDrives, BMS, embedded hardware and 'eVehicle OS' for 2-wheelers through trucks, plus stationary storage.",
+  "personalization_hook": "A Ratan Tata-backed EV powertrain company that builds its own BMS, embedded hardware and vehicle OS at its Pune R&D centre.",
+  "hook_source_url": "https://electraev.com/about/",
+  "contacts": [],
+  "other_contact": "https://electraev.com/contact/ (fetch failed; check in a browser)",
+  "founders_or_key_people": [
+   "not named on about page"
+  ],
+  "notes": "Raised $25M from GEF Capital. Email not verified.",
+  "do_not_email": false
+ },
+ {
+  "name": "Matel Motion & Energy Solutions",
+  "website": "https://matel.co.in",
+  "segment": "core",
+  "pune_evidence": "Technology centre at Veerbhadra Nagar Rd, Baner, Pune 411045; factory on Khed-Shivapur road, Pune",
+  "pune_evidence_url": "https://matel.co.in/",
+  "what_they_do": "Designs synchronous motors, motor controllers, VCUs, transmissions and BMS for EVs and industrial drives.",
+  "personalization_hook": "A founder-led Pune firm designing its own synchronous machines and motor controllers, a full-stack EV powertrain.",
+  "hook_source_url": "https://themachinemaker.com/news/pune-based-ev-startup-matel-raises-funds-to-propel-expansion/",
+  "contacts": [
+   {
+    "email": "sales@matel.co.in",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://matel.co.in/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "The site's 'Career' link points to https://www.matel.co.in/contact-us",
+  "founders_or_key_people": [
+   "Mahesh Toraskar (founder)"
+  ],
+  "notes": "Small and founder-led, so a good cold target. sales@ is the only general address (the vendor-enquiry address belongs to a person and isn't for jobs), so ask for it to be forwarded to the founder or engineering lead.",
+  "do_not_email": false
+ },
+ {
+  "name": "Ayaan Autonomous Systems",
+  "website": "https://ayaan.ai",
+  "segment": "ai_ml",
+  "pune_evidence": "Office at Equity Tower, Sanghvi Nagar, Aundh, Pune 411007",
+  "pune_evidence_url": "http://ayaan.ai/index.php",
+  "what_they_do": "AI-enabled UAVs/UGVs, tethered heavy-lift drones and swarm autonomy for defence, agriculture and inspection.",
+  "personalization_hook": "Won the IAF's Mehar Baba Competition-II (swarm drones to detect foreign objects on runways); builds heterogeneous swarming algorithms.",
+  "hook_source_url": "https://raksha-anirveda.com/ayaan-autonomous-systems-wins-indian-air-forces-prestigious-mehar-baba-competition-ii/",
+  "contacts": [
+   {
+    "email": "info@ayaan.ai",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "http://ayaan.ai/index.php",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://ayaan.ai/careers.php",
+  "founders_or_key_people": [
+   "Atul Chaudhari (Founder & CEO)"
+  ],
+  "notes": "Founder-led. Spans autonomy (AI) and drone hardware. Defence work.",
+  "do_not_email": false
+ },
+ {
+  "name": "VestaSpace Technology",
+  "website": "https://vestaspacetech.net",
+  "segment": "core",
+  "pune_evidence": "HQ at AG Tower, Ram Nagar, Bavdhan, Pune (Craft profile)",
+  "pune_evidence_url": "https://craft.co/vestaspace",
+  "what_they_do": "Nanosatellite solutions, mission analysis, ground-station services and launch support.",
+  "personalization_hook": "A Pune small-satellite company covering nanosat builds through ground-station services; it has announced plans for a 5G satellite constellation.",
+  "hook_source_url": "https://www.techradar.com/in/news/indian-startup-vestaspace-plans-over-35-5g-satellites",
+  "contacts": [],
+  "other_contact": "https://vestaspacetech.net (blocked to our fetcher; check in a browser)",
+  "founders_or_key_people": [
+   "not verified"
+  ],
+  "notes": "Activity since its 2020 funding is unclear. Check that it is still active before writing.",
+  "do_not_email": false
+ },
+ {
+  "name": "Infocusp Innovations",
+  "website": "https://www.infocusp.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Homepage lists offices in the US and India (Ahmedabad & Pune); 'LLM Engineer - 2' opening based in Pune",
+  "pune_evidence_url": "https://www.infocusp.com/careers/openings",
+  "what_they_do": "Research-driven AI/ML and infrastructure engineering for product teams (LLMs, data, fintech backends), with a 'Research & Innovation' practice and US patents.",
+  "personalization_hook": "Has a 'Research & Innovation' practice and inventors in its leadership, and is hiring LLM engineers in Pune.",
+  "hook_source_url": "https://www.infocusp.com/",
+  "contacts": [
+   {
+    "email": "careers@infocusp.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.infocusp.com/careers/openings",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.infocusp.com/careers/openings",
+  "founders_or_key_people": [
+   "not named on pages fetched"
+  ],
+  "notes": "The careers page explicitly invites CVs at careers@ for future openings. One of the more research-flavoured AI shops in Pune.",
+  "do_not_email": false
+ },
+ {
+  "name": "CargoFL (Innoctive Technologies)",
+  "website": "https://www.cargofl.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Listed among Pune AI startups by eChai and Wellfound (Pune). The company site itself does not state a city.",
+  "pune_evidence_url": "https://echai.ventures/pune/ai",
+  "what_they_do": "AI/ML logistics software: TMS, AI freight audit and a set of AI agents (booking, tracking, POD, invoicing) for supply chains.",
+  "personalization_hook": "Building multi-agent 'AI workforce' software that automates freight booking, tracking and billing for shippers.",
+  "hook_source_url": "https://www.cargofl.com/",
+  "contacts": [
+   {
+    "email": "hr@cargofl.com",
+    "kind": "hr",
+    "person_name": null,
+    "source_url": "https://talents.cargofl.com/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://talents.cargofl.com/",
+  "founders_or_key_people": [
+   "not named on pages fetched"
+  ],
+  "notes": "hr@ is printed on the careers site as the address for checking whether a job offer is genuine, so it is a real HR inbox but not an application address. Pune location comes only from third parties (medium).",
+  "do_not_email": false
+ },
+ {
+  "name": "Jeevtronics",
+  "website": "https://www.jeevtronics.com",
+  "segment": "core",
+  "pune_evidence": "Venture Center (NCL Pune) success story; YourStory headline calls it a 'Pune healthtech startup'",
+  "pune_evidence_url": "https://www.venturecenter.co.in/startups-and-success-stories/success-stories/jeevtronics",
+  "what_they_do": "SanMitra hand-cranked / triple-powered biphasic defibrillators for areas with unreliable power.",
+  "personalization_hook": "Built the world's first hand-cranked defibrillator: cranking for 5-10 s generates the ~2,000 V shock, with battery and mains as backups. That is a power-electronics design problem.",
+  "hook_source_url": "https://www.venturecenter.co.in/startups-and-success-stories/success-stories/jeevtronics",
+  "contacts": [
+   {
+    "email": "gawade.ashish@gmail.com",
+    "kind": "founder",
+    "person_name": "Ashish Gawade (co-founder, per Venture Center)",
+    "source_url": "https://www.jeevtronics.com/contact",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.jeevtronics.com/contact",
+  "founders_or_key_people": [
+   "Ashish Gawade",
+   "Aniruddha Atre (co-founders; Wayne State alumni)"
+  ],
+  "notes": "The only email on the official site is a founder's personal Gmail in the footer. It is published, but keep the message short and respectful. Tiny Venture Center hardware startup where a founder will read the mail.",
+  "do_not_email": false
+ },
+ {
+  "name": "Talentica Software",
+  "website": "https://www.talentica.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Registered office at B-7/8 Anmol Pride, Baner, Pune 411045; second office in Pashan",
+  "pune_evidence_url": "https://www.talentica.com/contact-us/",
+  "what_they_do": "Product-engineering partner for startups: AI productisation, agentic systems, GenAI and MLOps, plus core software.",
+  "personalization_hook": "A Pune firm that builds tech for startups, now focused on turning SaaS products into 'agentic SaaS' and on AI that 'holds up in production'.",
+  "hook_source_url": "https://www.talentica.com/contact-us/",
+  "contacts": [
+   {
+    "email": "careers@talentica.com",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.talentica.com/contact-us/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "Contact form 'Careers' option asks for college and CV: https://www.talentica.com/contact-us/",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "Mid-size services firm. careers@ is explicitly for careers.",
+  "do_not_email": false
+ },
+ {
+  "name": "EMotorad",
+  "website": "https://emotorad.com",
+  "segment": "core",
+  "pune_evidence": "India HQ: EMotorad Gigafactory, Jambe, Mulshi, Pune 411033",
+  "pune_evidence_url": "https://emotorad.com/",
+  "what_they_do": "Electric bicycles with in-house motors, controllers and batteries; runs a gigafactory near Hinjewadi.",
+  "personalization_hook": "A Pune e-bike maker that went from founding to a Series B and its own gigafactory in a few years.",
+  "hook_source_url": "https://techcrunch.com/2023/11/26/india-emotorad-funding-series-b-ebike/",
+  "contacts": [],
+  "other_contact": "https://www.emotorad.com (no careers email found)",
+  "founders_or_key_people": [
+   "Kunal Gupta (CEO)",
+   "Sumedh Battewar",
+   "Aditya Oza",
+   "Rajib Gangopadhyay (co-founders; TechCrunch)"
+  ],
+  "notes": "Founder-led. Contact the founders on LinkedIn.",
+  "do_not_email": false
+ },
+ {
+  "name": "KPIT Technologies",
+  "website": "https://www.kpit.com",
+  "segment": "core",
+  "pune_evidence": "Office at Rajiv Gandhi Infotech Park, MIDC-SEZ Phase III, Hinjawadi, Pune; Pune-headquartered",
+  "pune_evidence_url": "https://www.kpit.com/careers/",
+  "what_they_do": "Automotive software: AUTOSAR/middleware, ADAS/autonomous driving, EV powertrain and battery-management software for OEMs.",
+  "personalization_hook": "Pune-headquartered automotive-software firm working on ADAS and autonomous driving, close to his driverless-racing work.",
+  "hook_source_url": "https://www.kpit.com/careers/",
+  "contacts": [],
+  "other_contact": "https://www.kpit.com/careers/ (For Graduates section; KPIT Sparkle innovation challenge for students)",
+  "founders_or_key_people": [
+   "Ravi Pandit (co-founder & Chairman)",
+   "Kishor Patil (co-founder & CEO)"
+  ],
+  "notes": "Large firm with no email route. Use the careers portal, or IITB alumni referrals. Sparkle is a contest, not an internship.",
+  "do_not_email": false
+ },
+ {
+  "name": "TAL Manufacturing Solutions (Tata Motors subsidiary)",
+  "website": "https://www.tal.co.in",
+  "segment": "core",
+  "pune_evidence": "Pune-based Tata subsidiary that makes the TAL BRABO robots (Autocar Pro coverage)",
+  "pune_evidence_url": "https://www.autocarpro.in/news-national/tal-launches-axis-brabo-tro6-robot-29926",
+  "what_they_do": "Industrial automation, and maker of BRABO, India's first indigenous industrial robot arm.",
+  "personalization_hook": "Built BRABO, the first 'Made in India' industrial robot arm, which was later certified for sale in Europe.",
+  "hook_source_url": "https://autocarpro.in/news-national/tal-india-robot-certified-sale-europe-24220",
+  "contacts": [],
+  "other_contact": "https://www.tal.co.in (blocked to our fetcher)",
+  "founders_or_key_people": [],
+  "notes": "Mid-size Tata company with no email. Use the careers page or alumni.",
+  "do_not_email": false
+ },
+ {
+  "name": "Lentra",
+  "website": "https://www.lentra.ai",
+  "segment": "ai_ml",
+  "pune_evidence": "Office at 202 Amar Tech Park, Balewadi-Hinjawadi Road, Balewadi, Pune 411045",
+  "pune_evidence_url": "https://www.lentra.ai/careers/",
+  "what_they_do": "AI-powered lending cloud for banks/NBFCs (credit decisioning, underwriting) with an in-house MLOps product.",
+  "personalization_hook": "Builds India's 'Intelligent Lending Cloud' with its own MLOps layer for ML credit decisioning, which brings ML and probability to bear on credit risk.",
+  "hook_source_url": "https://www.lentra.ai/careers/",
+  "contacts": [
+   {
+    "email": "careers@lentra.ai",
+    "kind": "careers",
+    "person_name": null,
+    "source_url": "https://www.lentra.ai/careers/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.lentra.ai/careers/",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "Fintech plus ML; overlaps with the quant segment. The careers page says to send resumes to careers@.",
+  "do_not_email": false
+ },
+ {
+  "name": "Mindbowser",
+  "website": "https://www.mindbowser.com",
+  "segment": "ai_ml",
+  "pune_evidence": "Office at 12th Floor, Ambrosia Galaxy, Pan Card Club Road, Baner, Pune 411045",
+  "pune_evidence_url": "https://www.mindbowser.com/contact/",
+  "what_they_do": "Digital-health engineering: AI clinical decision support, risk-prediction models (cardiovascular, readmission, length of stay), healthcare AI agents.",
+  "personalization_hook": "Builds healthcare prediction models (readmission risk, length of stay, cardiovascular risk) and AI agents for US health systems from Baner.",
+  "hook_source_url": "https://www.mindbowser.com/contact/",
+  "contacts": [
+   {
+    "email": "contact@mindbowser.com",
+    "kind": "info",
+    "person_name": null,
+    "source_url": "https://www.mindbowser.com/contact/",
+    "confidence": "high"
+   }
+  ],
+  "other_contact": "https://www.mindbowser.com/careers/",
+  "founders_or_key_people": [
+   "not named on page fetched"
+  ],
+  "notes": "Services firm. contact@ is the general address, so prefer the careers page.",
+  "do_not_email": false
+ },
+ {
+  "name": "Genuine Power",
+  "website": "https://www.genuinepower.co.in",
+  "segment": "core",
+  "pune_evidence": "Address at Khushnuma Apartments, Mitha Nagar, Pune 411048",
+  "pune_evidence_url": "https://www.genuinepower.co.in/smart-battery-management-system-bms.html",
+  "what_they_do": "Smart BMS (CAN2.0/Bluetooth), Li-ion battery packs, inverters and portable power stations.",
+  "personalization_hook": "Makes CAN- and Bluetooth-connected smart BMS boards for lithium packs.",
+  "hook_source_url": "https://www.genuinepower.co.in/smart-battery-management-system-bms.html",
+  "contacts": [],
+  "other_contact": "Send-email form links on https://www.genuinepower.co.in (address not visible)",
+  "founders_or_key_people": [],
+  "notes": "Small trading/manufacturing firm, likely little R&D. Low priority.",
+  "do_not_email": false
+ },
+ {
+  "name": "NXP Semiconductors - Pune",
+  "website": "https://www.nxp.com",
+  "segment": "core",
+  "pune_evidence": "Opened a Pune office after acquiring Marvell's Wi-Fi/Bluetooth connectivity division",
+  "pune_evidence_url": "https://builtinpune.in/articles/semiconductor-companies-in-pune",
+  "what_they_do": "Automotive, industrial and connectivity chips. The Pune site works on wireless connectivity (Wi-Fi/BT) silicon and software.",
+  "personalization_hook": "Its Pune team came from Marvell's Wi-Fi/Bluetooth connectivity group, which is RF and signal-processing silicon.",
+  "hook_source_url": "https://builtinpune.in/articles/semiconductor-companies-in-pune",
+  "contacts": [],
+  "other_contact": "https://www.nxp.com/company/about-nxp/careers (filter Pune, intern)",
+  "founders_or_key_people": [],
+  "notes": "Big company. Internships go through the formal portal and campus channels only.",
+  "do_not_email": false
+ },
+ {
+  "name": "Marvell Technology - Pune",
+  "website": "https://www.marvell.com",
+  "segment": "core",
+  "pune_evidence": "Present in Pune; planned 100,000 sq ft office + R&D centre with two labs (~500 staff)",
+  "pune_evidence_url": "https://builtinpune.in/articles/semiconductor-companies-in-pune",
+  "what_they_do": "Data-infrastructure silicon. Pune lists digital design and design-verification roles.",
+  "personalization_hook": "Expanding Pune into a 100,000 sq ft R&D centre with two labs for digital design and verification.",
+  "hook_source_url": "https://builtinpune.in/articles/semiconductor-companies-in-pune",
+  "contacts": [],
+  "other_contact": "https://www.marvell.com/company/careers.html",
+  "founders_or_key_people": [],
+  "notes": "Big company with a portal only.",
+  "do_not_email": false
+ }
+]

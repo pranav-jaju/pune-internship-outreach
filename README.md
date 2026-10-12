@@ -28,3 +28,10 @@ Secrets:
 - Never guess an email address.
 - Each firm gets one cold mail.
 - No real send happens until Pranav says go.
+
+## Batches
+
+- Quant (24 mails, `data/drafts.json`): 13–15 Oct 2026.
+- AI/ML and core electronics, Pune (20 mails, `data/drafts_aiml_core.json`): 16, 19 and 20 Oct. These were appended to `data/queue.csv` directly.
+
+Note: `build_queue.py` rebuilds the queue from `data/drafts.json` alone. Append later batches to the queue instead of re-running it, or the second batch drops out.

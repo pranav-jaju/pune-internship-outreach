@@ -53,3 +53,18 @@ All records with sources are in `research/segment_D_india_quant.json`. Every ema
 **Weaker fits or support inboxes only:** QuantInsti, Weekend Investing, Capitalmind, Pace, Quantsapp, Greeksoft, True Beacon.
 
 **No email; apply through a form or job board:** Delta Exchange (remote quant role on vol-surface calibration), Greenland (Quant Research Intern posting), NK Securities, Graviton, Mathisys, Qode, ArthAlpha, Plutus, and others.
+
+## Pune AI/ML and core electronics (20 drafts in `data/drafts_aiml_core.json`)
+
+All records with sources are in `research/segment_E_aiml_core.json`. It lists 47 firms, 26 of which have an email.
+
+**AI / ML:** Peppermint Robotics (SLAM cleaning robots), Vector Robotics (perception internship), FlytBase (drone autonomy), Pivotchain (video analytics), Infocusp (research-style AI), Ayaan (swarm drones), Intangles, E42.ai, Cognologix, Talentica, Pratiti, Mindbowser.
+
+**Core:** Aeron Systems (IMU/INS), Accolade Electronics (automotive; invites CVs), Ecozen (motor controllers), DroneAcharya, eInfochips (FPGA/embedded), Sagar Defence, Noccarc (ventilators), Revogreen (battery management).
+
+**No usable email; use a portal, LinkedIn or a warm intro:**
+- SEDEMAC: grew out of IIT Bombay; ask an IITB contact for an intro.
+- Bit Mapper: an FPGA role.
+- Firms whose only address is a sales inbox: Unbox Robotics, Matel, Altizon.
+- Jeevtronics: the only address is a founder's personal Gmail.
+- Others: DeeDee Labs, Griffyn, KPIT, TCS Research, Seagate, NXP, Marvell.
