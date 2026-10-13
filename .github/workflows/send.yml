@@ -6,6 +6,7 @@ name: pune-send
 on:
   schedule:
     - cron: "11 4 * * 1-5"   # 09:41 IST, Mon-Fri
+    - cron: "37 5 * * 1-5"   # 11:07 IST backup in case GitHub drops or delays the first; the sent log makes it a no-op otherwise
   workflow_dispatch:
     inputs:
       test_to:
@@ -23,6 +24,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # latest tip, so a queued run sees the sent log the previous run committed
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
