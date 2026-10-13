@@ -17,7 +17,6 @@ Usage:
 import argparse
 import csv
 import os
-import imaplib
 import random
 import smtplib
 import ssl
@@ -74,27 +73,6 @@ def build_message(row, sender_name, sender_email, resume):
     part.add_header("Content-Disposition", "attachment", filename=resume.name)
     msg.attach(part)
     return msg
-
-
-def save_to_sent(msg):
-    """Best effort: put a copy in the mailbox's Sent folder over IMAP (SMTP alone doesn't).
-    Never stops a send; prints why if it fails."""
-    host = os.environ.get("IMAP_SERVER", "imap.iitb.ac.in")
-    try:
-        m = imaplib.IMAP4_SSL(host, int(os.environ.get("IMAP_PORT", "993")), timeout=30)
-        m.login(os.environ.get("SMTP_USER") or os.environ["SENDER_EMAIL"], os.environ["SENDER_APP_TOKEN"])
-        folder = "Sent"
-        _, boxes = m.list()
-        for b in boxes or []:
-            line = b.decode(errors="replace")
-            if "\\Sent" in line:
-                folder = line.rsplit(' "', 1)[-1].rstrip('"') if line.endswith('"') else line.split()[-1]
-                break
-        m.append(f'"{folder}"', "\\Seen", imaplib.Time2Internaldate(time.time()), msg.as_bytes())
-        m.logout()
-        print(f"  copied to {folder} on {host}")
-    except Exception as e:
-        print(f"  could not copy to Sent ({type(e).__name__}: {e})")
 
 
 def log(path, row, status, error=""):
@@ -161,9 +139,10 @@ def main():
         print(f"[{i}/{len(queue)}] {row['firm']} -> {row['email']}")
         try:
             msg = build_message(row, sender_name, sender_email, resume)
-            smtp.send_message(msg)
+            # Silent copy to the sender's own inbox (SMTP never fills the webmail Sent folder).
+            copy = [] if a.test_to or os.environ.get("COPY_TO_SELF", "yes") != "yes" else [sender_email]
+            smtp.send_message(msg, to_addrs=[row["email"], *copy])
             ok += 1
-            save_to_sent(msg)
             if not a.test_to:
                 log(a.log, row, "sent")
         except Exception as e:  # keep going; the log records the failure
