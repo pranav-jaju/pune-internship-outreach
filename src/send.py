@@ -16,6 +16,7 @@ Usage:
 """
 import argparse
 import csv
+import imaplib
 import os
 import random
 import smtplib
@@ -75,6 +76,69 @@ def build_message(row, sender_name, sender_email, resume):
     return msg
 
 
+# Copied from the summer outreach sender (cold-mail-outreach src/send/send_batch.py), where it
+# already files every sent mail in the IITB Sent folder.
+def imap_connect(server, user, token):
+    """IMAP login to IITB. Its server rejects OpenSSL 3's default ciphers on 993, so try SSL on 993,
+    then STARTTLS on 143, then each again with the legacy cipher level; the first that logs in wins."""
+    def ctx(legacy):
+        c = ssl.create_default_context()
+        if legacy:
+            c.set_ciphers("DEFAULT:@SECLEVEL=0")
+            c.minimum_version = ssl.TLSVersion.TLSv1
+        return c
+    errors = []
+    for legacy in (False, True):
+        for port in (993, 143):
+            try:
+                if port == 993:
+                    m = imaplib.IMAP4_SSL(server, port, ssl_context=ctx(legacy), timeout=30)
+                else:
+                    m = imaplib.IMAP4(server, port, timeout=30)
+                    m.starttls(ssl_context=ctx(legacy))
+                m.login(user, token)
+                return m
+            except Exception as e:
+                errors.append(f"{port}{'L' if legacy else ''}: {type(e).__name__}: {str(e)[:80]}")
+    raise ConnectionError("; ".join(errors))
+
+
+class SentFolder:
+    """Saves a copy of each sent email to the mailbox's Sent folder over IMAP (SMTP alone keeps
+    no copy). Best effort: a failure is printed once and never blocks or fails a send."""
+
+    def __init__(self, user, token):
+        self.user, self.token, self.imap, self.dead = user, token, None, False
+        self.server = os.environ.get("IMAP_SERVER", "imap.iitb.ac.in")
+        self.folder = os.environ.get("IMAP_SENT_FOLDER", "Sent")
+
+    def save(self, msg):
+        if self.dead:
+            return
+        try:
+            if self.imap is None:
+                self.imap = self.connect()
+            typ, data = self.imap.append(self.folder, r"(\Seen)", imaplib.Time2Internaldate(time.time()),
+                                         msg.as_bytes())
+            if typ != "OK":
+                raise imaplib.IMAP4.error(f"{typ} {data}")
+        except Exception as e:
+            self.dead = True
+            print(f"  (could not save a copy to {self.folder}: {type(e).__name__}: {e}; sending continues)")
+
+    def connect(self):
+        m = imap_connect(self.server, self.user, self.token)
+        print(f"  (Sent-folder copies via {self.server})")
+        return m
+
+    def close(self):
+        if self.imap is not None:
+            try:
+                self.imap.logout()
+            except Exception:
+                pass
+
+
 def log(path, row, status, error=""):
     new = not Path(path).exists()
     with open(path, "a", newline="", encoding="utf-8") as f:
@@ -132,6 +196,7 @@ def main():
     smtp.ehlo()
     smtp.login(os.environ.get("SMTP_USER") or sender_email, env("SENDER_APP_TOKEN"))
 
+    sent_folder = SentFolder(os.environ.get("SMTP_USER") or sender_email, env("SENDER_APP_TOKEN"))
     ok = fail = 0
     for i, row in enumerate(queue, 1):
         if a.test_to:
@@ -139,10 +204,9 @@ def main():
         print(f"[{i}/{len(queue)}] {row['firm']} -> {row['email']}")
         try:
             msg = build_message(row, sender_name, sender_email, resume)
-            # Silent copy to the sender's own inbox (SMTP never fills the webmail Sent folder).
-            copy = [] if a.test_to or os.environ.get("COPY_TO_SELF", "yes") != "yes" else [sender_email]
-            smtp.send_message(msg, to_addrs=[row["email"], *copy])
+            smtp.send_message(msg)
             ok += 1
+            sent_folder.save(msg)
             if not a.test_to:
                 log(a.log, row, "sent")
         except Exception as e:  # keep going; the log records the failure
@@ -153,6 +217,7 @@ def main():
         if i < len(queue):
             time.sleep(a.delay + random.randint(0, a.jitter))
     smtp.quit()
+    sent_folder.close()
     print(f"Done. sent={ok} failed={fail}")
 
 
