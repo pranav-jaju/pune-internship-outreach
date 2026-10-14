@@ -43,7 +43,7 @@ jobs:
           if [ -n "${{ inputs.test_to }}" ]; then
             python3 src/send.py --test-to "${{ inputs.test_to }}" --limit 1 --date 2099-12-31 --send
           else
-            python3 src/send.py --send
+            python3 src/send.py --send --delay 60 --jitter 60
           fi
       - name: Save the sent log
         if: always() && inputs.test_to == ''
