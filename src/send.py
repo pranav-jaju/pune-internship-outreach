@@ -178,6 +178,16 @@ def main():
 
     sent_emails, sent_firms, followed = load_sent(a.log)
     done = answered(str(Path(a.log).parent))
+    # a firm whose every mail bounced may be retried at a new address
+    bounced = set()
+    bpath = Path(a.log).parent / "bounces.csv"
+    if bpath.exists():
+        bounced = {r["email"].strip().lower() for r in csv.DictReader(open(bpath, newline="", encoding="utf-8"))}
+    firm_emails = {}
+    for r in csv.DictReader(open(a.log, newline="", encoding="utf-8")) if Path(a.log).exists() else []:
+        if r.get("status") == "sent" and (r.get("kind") or "first") == "first":
+            firm_emails.setdefault(r["firm"].strip().lower(), set()).add(r["email"].strip().lower())
+    sent_firms -= {f for f, ems in firm_emails.items() if ems <= bounced}
     queue, seen = [], set()
     for row in csv.DictReader(open(a.queue, newline="", encoding="utf-8")):
         if row.get("send", "").strip().lower() != "yes" or not row.get("email") or not row.get("body"):
