@@ -29,6 +29,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Check replies and bounces
+        if: inputs.test_to == ''
+        continue-on-error: true
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL || 'pranavjaju@iitb.ac.in' }}
+          SENDER_APP_TOKEN: ${{ secrets.SENDER_APP_TOKEN }}
+        run: python3 src/check_replies.py
+      - name: Queue follow-ups to firms that haven't answered
+        if: inputs.test_to == ''
+        run: python3 src/plan_followups.py
       - name: Send
         env:
           PUNE_SENDING_APPROVED: ${{ vars.PUNE_SENDING_APPROVED }}
@@ -45,13 +56,13 @@ jobs:
           else
             python3 src/send.py --send --delay 60 --jitter 60
           fi
-      - name: Save the sent log
+      - name: Save the sent log, replies and bounces
         if: always() && inputs.test_to == ''
         run: |
           [ -f data/sent_log.csv ] || exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898+github-actions[bot]@users.noreply.github.com"
-          git add data/sent_log.csv
+          git add data/sent_log.csv data/queue.csv; git add data/replies.csv data/bounces.csv 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "Sent log $(TZ=Asia/Kolkata date +%F)"
           for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i*5)); done

@@ -45,14 +45,29 @@ def env(name):
 
 
 def load_sent(path):
-    emails, firms = set(), set()
+    """(emails, firms, followed_up): first-touch emails and firms already sent, and emails that
+    already got their one follow-up."""
+    emails, firms, followed = set(), set(), set()
     if Path(path).exists():
         for r in csv.DictReader(open(path, newline="", encoding="utf-8")):
             if r.get("status") == "sent":
-                emails.add(r["email"].strip().lower())
-                if r.get("kind", "first") == "first":
+                if r.get("kind", "first") == "followup":
+                    followed.add(r["email"].strip().lower())
+                else:
+                    emails.add(r["email"].strip().lower())
                     firms.add(r["firm"].strip().lower())
-    return emails, firms
+    return emails, firms, followed
+
+
+def answered(data_dir="data"):
+    """Emails that replied (any outcome) or bounced: never followed up."""
+    out = set()
+    for name in ("replies.csv", "bounces.csv"):
+        p = Path(data_dir) / name
+        if p.exists():
+            out |= {r["email"].strip().lower() for r in csv.DictReader(open(p, newline="", encoding="utf-8"))
+                    if not (name == "replies.csv" and r.get("outcome") == "auto")}
+    return out
 
 
 def build_message(row, sender_name, sender_email, resume):
@@ -161,14 +176,23 @@ def main():
     ap.add_argument("--send", action="store_true")
     a = ap.parse_args()
 
-    sent_emails, sent_firms = load_sent(a.log)
+    sent_emails, sent_firms, followed = load_sent(a.log)
+    done = answered(str(Path(a.log).parent))
     queue, seen = [], set()
     for row in csv.DictReader(open(a.queue, newline="", encoding="utf-8")):
         if row.get("send", "").strip().lower() != "yes" or not row.get("email") or not row.get("body"):
             continue
         email, firm = row["email"].strip().lower(), row["firm"].strip().lower()
-        first = (row.get("kind") or "first") == "first"
-        if email in sent_emails or email in seen or (first and (firm in sent_firms or firm in seen)):
+        if (row.get("kind") or "first") == "followup":
+            # one follow-up, only to a first mail that went out and got no answer or bounce
+            if email in followed or email in done or email not in sent_emails or ("fu", email) in seen:
+                continue
+            if row.get("planned_date") and row["planned_date"] > a.date:
+                continue
+            seen.add(("fu", email))
+            queue.append(row)
+            continue
+        if email in sent_emails or email in seen or firm in sent_firms or firm in seen:
             continue
         if row.get("planned_date") and row["planned_date"] > a.date:
             continue
