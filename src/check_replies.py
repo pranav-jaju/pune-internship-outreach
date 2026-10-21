@@ -25,7 +25,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 DECLINE = re.compile(r"\b(unfortunately|unable to (offer|take|accommodate)|not able to (offer|take)|"
                      r"no (open )?(positions?|openings?|vacanc(y|ies))|cannot (offer|take)|regret|"
                      r"not (currently )?(taking|accepting|hiring))\b", re.I)
-AUTO = re.compile(r"auto(matic)?[- ]?(reply|response)|out of office|ticket|we have received|thank you for (contacting|reaching)", re.I)
+AUTO = re.compile(r"auto(matic)?[- ]?(reply|response)|out of office|ticket|request .{0,40}(has been|is being) (received|created|reviewed)", re.I)
 DAEMON = re.compile(r"mailer-daemon|postmaster|mail delivery", re.I)
 FREE = {"gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "iitb.ac.in"}
 REPLY_FIELDS = ["email", "firm", "from", "replied_at", "subject", "snippet", "outcome"]
@@ -115,7 +115,8 @@ def classify(messages, sent):
                     continue
                 text = plain_text(msg)
                 subj = header(msg, "Subject")
-                outcome = "declined" if DECLINE.search(text) else "auto" if AUTO.search(subj + " " + text[:300]) else "reply"
+                auto = AUTO.search(subj + " " + text[:300]) or re.search(r"no-?reply", a)
+                outcome = "declined" if DECLINE.search(text) else "auto" if auto else "reply"
                 row = {"email": em, "firm": firm, "from": a, "replied_at": when.astimezone(IST).strftime("%Y-%m-%d %H:%M"),
                        "subject": subj[:200], "snippet": text[:400], "outcome": outcome}
                 old = replies.get(em)
