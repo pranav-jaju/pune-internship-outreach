@@ -2,7 +2,7 @@
 
 A firm qualifies when its first mail went out at least --after weekdays before --date, it is not in
 data/replies.csv (a real reply or a decline; an auto-acknowledgement doesn't count) or
-data/bounces.csv, and it has no follow-up queued or sent yet. Follow-ups are appended to
+data/bounces.csv or data/followup_skip.txt, and it has no follow-up queued or sent yet. Follow-ups are appended to
 data/queue.csv as kind=followup rows due on --date; send.py sends them like any other row.
 Nothing is queued unless data/followups_approved.txt says "yes" (Pranav approves the wording).
 
@@ -64,6 +64,9 @@ def main():
     queued_fu = {r["email"].strip().lower() for r in rows if r.get("kind") == "followup"}
     _, _, followed = load_sent(a.log)
     done = answered(str(Path(a.log).parent))
+    skip_file = Path("data/followup_skip.txt")
+    if skip_file.exists():
+        done |= {l.strip().lower() for l in skip_file.read_text().splitlines() if l.strip() and not l.startswith("#")}
 
     first_sent = {}
     for r in csv.DictReader(open(a.log, newline="", encoding="utf-8")):
