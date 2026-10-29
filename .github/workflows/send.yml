@@ -4,9 +4,9 @@
 # To pause: Actions tab -> pune-send -> "..." -> Disable workflow.
 name: pune-send
 on:
-  schedule:
-    - cron: "11 4 * * 1-5"   # 09:41 IST, Mon-Fri
-    - cron: "37 5 * * 1-5"   # 11:07 IST backup in case GitHub drops or delays the first; the sent log makes it a no-op otherwise
+  # schedule: paused 29 Oct 2026 at Pranav's request ("stop mailing till i tell u to"). Restore the two crons to resume.
+  #   - cron: "11 4 * * 1-5"   # 09:41 IST, Mon-Fri
+  #   - cron: "37 5 * * 1-5"   # 11:07 IST backup
   workflow_dispatch:
     inputs:
       test_to:
